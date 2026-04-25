@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface-white text-text font-sans text-base antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-text-heading font-semibold;
+  }
+}
