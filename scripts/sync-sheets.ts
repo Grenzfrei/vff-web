@@ -6,13 +6,22 @@ import { SPREADSHEET_ID, SHEET_MAPPINGS } from "./sync-sheets.config";
 const DATA_DIR = join(__dirname, "..", "src", "lib", "data");
 
 function fetchSheet(sheetName: string): string[][] {
-  const result = execSync(
-    `gws sheets +read --spreadsheet "${SPREADSHEET_ID}" --range "${sheetName}!A:Z" --format json`,
-    { encoding: "utf-8" }
-  );
+  try {
+    const result = execSync(
+      `gws sheets +read --spreadsheet "${SPREADSHEET_ID}" --range "${sheetName}!A:Z" --format json`,
+      { encoding: "utf-8" }
+    );
 
-  const parsed = JSON.parse(result);
-  return (parsed.values as string[][]) ?? [];
+    const parsed = JSON.parse(result);
+    return (parsed.values as string[][]) ?? [];
+  } catch (error) {
+    // If gws is not available (e.g., in CI without gws CLI), skip sync
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT' || String(error).includes('gws: not found')) {
+      console.warn(`  ⚠ gws CLI not available, skipping sync. (Set GOOGLE_APPLICATION_CREDENTIALS for Cloudflare Pages)`);
+      return [];
+    }
+    throw error;
+  }
 }
 
 function main() {
