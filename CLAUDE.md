@@ -9,6 +9,11 @@ npm run sync      # Google Sheets → JSON Sync (via gws CLI)
 npm run lint      # ESLint
 ```
 
+## Status (2026-04-25)
+- **Migration ON-HOLD bis post-event Juli 2026** (Board-Entscheidung). Wix-Site bleibt produktiv.
+- Drafts in `docs/page-content-*.md` bei Wiederaufnahme neu evaluieren.
+- Vault: `vault/projects/vff-wordpress-migration-hold.md`
+
 ## Stack
 - Next.js 14 (App Router), TypeScript strict, Tailwind CSS 3.4
 - Vitest + Testing Library
