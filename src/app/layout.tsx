@@ -3,6 +3,7 @@ import { Barlow } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { OrganizationStructuredData } from "@/lib/structured-data";
 
 const barlow = Barlow({
   subsets: ["latin"],
@@ -28,6 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={barlow.variable}>
+      <head>
+        <OrganizationStructuredData />
+      </head>
       <body className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-1">{children}</main>
