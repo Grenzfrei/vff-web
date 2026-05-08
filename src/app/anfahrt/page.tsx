@@ -96,7 +96,7 @@ export default function AnfahrtPage() {
               <div className="bg-surface rounded-lg overflow-hidden aspect-[4/3]">
                 <iframe
                   title="Schlosspark Geislautern auf Google Maps"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.123456789!2d6.823!3d49.237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795a9be2a012345%3A0x1234567890abcdef!2sSchlosspark+Geislautern!5e0!3m2!1sde!2sde!4v1234567890"
+                  src="https://www.google.com/maps?q=Schlosspark+Geislautern,+66333+V%C3%B6lklingen&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
