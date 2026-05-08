@@ -1,0 +1,451 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`HomePage > matches snapshot 1`] = `
+<div>
+  <script
+    type="application/ld+json"
+  >
+    {"@context":"https://schema.org","@type":"Event","name":"Vegan Fantasy Fair","description":"Die vegane Messe mit Fantasy-Flair","url":"https://veganfantasyfair.de","startDate":"2026-07-04T10:00:00+02:00","endDate":"2026-07-05T20:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Schlosspark Geislautern","address":{"@type":"PostalAddress","addressLocality":"Völklingen","addressRegion":"Saarland","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"Next Heroes Events GbR","url":"https://veganfantasyfair.de","email":"info@veganfantasyfair.de"}}
+  </script>
+  <section
+    class="bg-surface py-section-mobile desktop:py-section-desktop relative"
+  >
+    <div
+      class="hidden desktop:block absolute top-8 left-8"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-12 w-12 text-primary fill-current"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+        />
+      </svg>
+    </div>
+    <div
+      class="hidden desktop:block absolute top-8 right-8"
+    >
+      <svg
+        aria-hidden="true"
+        class="h-12 w-12 text-accent fill-current"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+        />
+      </svg>
+    </div>
+    <div
+      class="max-w-[1200px] mx-auto px-4 text-center"
+    >
+      <h1
+        class="text-4xl desktop:text-6xl font-display font-bold text-primary mb-4"
+      >
+        Vegan Fantasy Fair 2026
+      </h1>
+      <p
+        class="text-xl text-text-muted mb-8"
+      >
+        4. & 5. Juli 2026 · Schlosspark Geislautern, Völklingen
+      </p>
+      <div
+        class="flex flex-col tablet:flex-row justify-center gap-4"
+      >
+        <a
+          class="px-6 py-3 bg-cta text-white rounded-3xl font-semibold hover:bg-cta-hover hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
+          href="/mitmachen"
+        >
+          Als Aussteller:in bewerben
+        </a>
+        <a
+          class="px-6 py-3 border-2 border-primary text-primary rounded-3xl font-semibold hover:bg-primary hover:text-white hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
+          href="/programm"
+        >
+          Zum Programm
+        </a>
+      </div>
+    </div>
+  </section>
+  <section
+    class="py-section-mobile desktop:py-section-desktop"
+  >
+    <div
+      class="max-w-[1200px] mx-auto px-4"
+    >
+      <h2
+        class="text-2xl desktop:text-3xl font-display font-bold text-primary text-center mb-8"
+      >
+        Was euch erwartet
+      </h2>
+      <div
+        class="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3"
+      >
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Mittelalter-Area"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/castle.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Mittelalter-Area
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Markt mit Handwerkern und Tavernen-Flair – Kostüme erwünscht.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Live-Musik"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/lyre.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Live-Musik
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Bands und Solokünstler:innen auf der Festivalbühne.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Artist Alley"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/scroll.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Artist Alley
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Kreative Stände mit Kunst, Illustrationen und Handwerk.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="LARP-Spielfelder"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/crossed-swords.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            LARP-Spielfelder
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Fantasy-Rollenspiel zum Mitmachen für alle Altersgruppen.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Veganer Streetfood"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/cooking-pot.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Veganer Streetfood
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Pflanzliche Küche von Foodtrucks und lokalen Anbietern.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="bg-surface py-section-mobile desktop:py-section-desktop"
+  >
+    <div
+      class="max-w-[1200px] mx-auto px-4"
+    >
+      <h2
+        class="text-2xl desktop:text-3xl font-display font-bold text-primary text-center mb-8"
+      >
+        Key Facts
+      </h2>
+      <div
+        class="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3 max-w-3xl mx-auto"
+      >
+        <div
+          class="bg-surface-white p-5 rounded-lg shadow-card text-center"
+        >
+          <div
+            aria-hidden="true"
+            class="text-3xl mb-2"
+          >
+            📅
+          </div>
+          <p
+            class="font-semibold text-primary"
+          >
+            4. & 5. Juli 2026
+          </p>
+          <p
+            class="text-text-muted text-sm mt-1"
+          >
+            Zwei volle Festival-Tage
+          </p>
+        </div>
+        <div
+          class="bg-surface-white p-5 rounded-lg shadow-card text-center"
+        >
+          <div
+            aria-hidden="true"
+            class="text-3xl mb-2"
+          >
+            📍
+          </div>
+          <p
+            class="font-semibold text-primary"
+          >
+            Schlosspark Geislautern
+          </p>
+          <p
+            class="text-text-muted text-sm mt-1"
+          >
+            Völklingen, Saarland
+          </p>
+        </div>
+        <div
+          class="bg-surface-white p-5 rounded-lg shadow-card text-center"
+        >
+          <div
+            aria-hidden="true"
+            class="text-3xl mb-2"
+          >
+            🌱
+          </div>
+          <p
+            class="font-semibold text-primary"
+          >
+            100% vegan
+          </p>
+          <p
+            class="text-text-muted text-sm mt-1"
+          >
+            Essen, Mode, Kunst, Lifestyle
+          </p>
+        </div>
+        <div
+          class="bg-surface-white p-5 rounded-lg shadow-card text-center"
+        >
+          <div
+            aria-hidden="true"
+            class="text-3xl mb-2"
+          >
+            🧙
+          </div>
+          <p
+            class="font-semibold text-primary"
+          >
+            Fantasy & Cosplay
+          </p>
+          <p
+            class="text-text-muted text-sm mt-1"
+          >
+            Für alle, die mehr wollen als nur einen Markt
+          </p>
+        </div>
+        <div
+          class="bg-surface-white p-5 rounded-lg shadow-card text-center"
+        >
+          <div
+            aria-hidden="true"
+            class="text-3xl mb-2"
+          >
+            🎵
+          </div>
+          <p
+            class="font-semibold text-primary"
+          >
+            Live-Musik
+          </p>
+          <p
+            class="text-text-muted text-sm mt-1"
+          >
+            Bands und Solokünstler:innen
+          </p>
+        </div>
+        <div
+          class="bg-surface-white p-5 rounded-lg shadow-card text-center"
+        >
+          <div
+            aria-hidden="true"
+            class="text-3xl mb-2"
+          >
+            🛒
+          </div>
+          <p
+            class="font-semibold text-primary"
+          >
+            Aussteller
+          </p>
+          <p
+            class="text-text-muted text-sm mt-1"
+          >
+            Vegane Marken, Handwerk, Food
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    class="py-section-mobile desktop:py-section-desktop"
+  >
+    <div
+      class="max-w-[1200px] mx-auto px-4 text-center"
+    >
+      <h2
+        class="text-2xl desktop:text-3xl font-display font-bold text-primary mb-4"
+      >
+        Dein Stand auf der VFF 2026
+      </h2>
+      <p
+        class="text-text-muted mb-6 max-w-2xl mx-auto leading-relaxed"
+      >
+        Ihr seid Aussteller:in und möchtet dabei sein? Ob vegane Produkte, Foodtruck, Kunsthandwerk oder Info-Stand — wir freuen uns auf eure Bewerbung!
+      </p>
+      <a
+        class="inline-block px-8 py-4 bg-cta text-white rounded-3xl font-semibold text-lg hover:bg-cta-hover hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
+        href="/mitmachen"
+      >
+        Jetzt als Aussteller:in bewerben
+      </a>
+    </div>
+  </section>
+  <section
+    class="bg-surface py-section-mobile desktop:py-section-desktop"
+  >
+    <div
+      class="max-w-[1200px] mx-auto px-4"
+    >
+      <h2
+        class="text-2xl desktop:text-3xl font-display font-bold text-primary text-center mb-6"
+      >
+        Wo vegane Küche auf Fantasy trifft
+      </h2>
+      <p
+        class="text-text-muted text-center max-w-2xl mx-auto mb-8 leading-relaxed"
+      >
+        Die Vegan Fantasy Fair ist das einzigartige vegane Festival im Saarland. An zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
+      </p>
+      <p
+        class="text-center text-lg font-medium text-primary mb-6"
+      >
+        10.000 qm. Fünf Areas. Zwei Tage. Eine Community.
+      </p>
+      <p
+        class="text-center"
+      >
+        <a
+          class="inline-block px-6 py-3 border-2 border-primary text-primary rounded-3xl font-semibold hover:bg-primary hover:text-white hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
+          href="/die-fair"
+        >
+          Mehr über die Fair
+        </a>
+      </p>
+    </div>
+  </section>
+  <section
+    class="py-section-mobile desktop:py-section-desktop"
+  >
+    <div
+      class="max-w-[1200px] mx-auto px-4 text-center"
+    >
+      <h2
+        class="text-2xl desktop:text-3xl font-display font-bold text-primary mb-4"
+      >
+        Schlosspark Geislautern, Völklingen
+      </h2>
+      <p
+        class="text-text-muted mb-6"
+      >
+        Gut erreichbar mit Auto und Bahn.
+      </p>
+      <a
+        class="inline-block px-6 py-3 border-2 border-primary text-primary rounded-3xl font-semibold hover:bg-primary hover:text-white hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
+        href="/anfahrt"
+      >
+        Anfahrt & Parken
+      </a>
+    </div>
+  </section>
+</div>
+`;

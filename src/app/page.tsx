@@ -2,14 +2,23 @@ import Link from "next/link";
 import { EVENT, EVENT_AREAS } from "@/lib/constants";
 import EventAreaCard from "@/components/EventAreaCard";
 import { EventStructuredData } from "@/lib/structured-data";
+import StarOrnament from "@/components/prefabs/StarOrnament";
 
 export default function HomePage() {
   return (
     <>
       <EventStructuredData />
-      <section className="bg-surface py-section-mobile desktop:py-section-desktop">
+      <section className="bg-surface py-section-mobile desktop:py-section-desktop relative">
+        {/* Decorative stars - hidden on mobile */}
+        <div className="hidden desktop:block absolute top-8 left-8">
+          <StarOrnament size="lg" color="primary" />
+        </div>
+        <div className="hidden desktop:block absolute top-8 right-8">
+          <StarOrnament size="lg" color="accent" />
+        </div>
+
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h1 className="text-4xl desktop:text-6xl font-bold text-primary mb-4">
+          <h1 className="text-4xl desktop:text-6xl font-display font-bold text-primary mb-4">
             Vegan Fantasy Fair 2026
           </h1>
           <p className="text-xl text-text-muted mb-8">
@@ -18,13 +27,13 @@ export default function HomePage() {
           <div className="flex flex-col tablet:flex-row justify-center gap-4">
             <Link
               href="/mitmachen"
-              className="px-6 py-3 bg-cta text-white rounded font-semibold hover:bg-cta-hover transition-colors"
+              className="px-6 py-3 bg-cta text-white rounded-3xl font-semibold hover:bg-cta-hover hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
             >
               Als Aussteller:in bewerben
             </Link>
             <Link
               href="/programm"
-              className="px-6 py-3 border-2 border-primary text-primary rounded font-semibold hover:bg-primary hover:text-white transition-colors"
+              className="px-6 py-3 border-2 border-primary text-primary rounded-3xl font-semibold hover:bg-primary hover:text-white hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
             >
               Zum Programm
             </Link>
@@ -34,7 +43,7 @@ export default function HomePage() {
 
       <section className="py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-8">
+          <h2 className="text-2xl desktop:text-3xl font-display font-bold text-primary text-center mb-8">
             Was euch erwartet
           </h2>
           <div className="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3">
@@ -47,7 +56,7 @@ export default function HomePage() {
 
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-8">
+          <h2 className="text-2xl desktop:text-3xl font-display font-bold text-primary text-center mb-8">
             Key Facts
           </h2>
           <div className="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3 max-w-3xl mx-auto">
@@ -71,7 +80,7 @@ export default function HomePage() {
 
       <section className="py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary mb-4">
+          <h2 className="text-2xl desktop:text-3xl font-display font-bold text-primary mb-4">
             Dein Stand auf der VFF 2026
           </h2>
           <p className="text-text-muted mb-6 max-w-2xl mx-auto leading-relaxed">
@@ -81,7 +90,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/mitmachen"
-            className="inline-block px-8 py-4 bg-cta text-white rounded font-semibold text-lg hover:bg-cta-hover transition-colors"
+            className="inline-block px-8 py-4 bg-cta text-white rounded-3xl font-semibold text-lg hover:bg-cta-hover hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
           >
             Jetzt als Aussteller:in bewerben
           </Link>
@@ -90,7 +99,7 @@ export default function HomePage() {
 
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-6">
+          <h2 className="text-2xl desktop:text-3xl font-display font-bold text-primary text-center mb-6">
             Wo vegane Küche auf Fantasy trifft
           </h2>
           <p className="text-text-muted text-center max-w-2xl mx-auto mb-8 leading-relaxed">
@@ -105,7 +114,7 @@ export default function HomePage() {
           <p className="text-center">
             <Link
               href="/die-fair"
-              className="px-6 py-3 border-2 border-primary text-primary rounded font-semibold hover:bg-primary hover:text-white transition-colors"
+              className="inline-block px-6 py-3 border-2 border-primary text-primary rounded-3xl font-semibold hover:bg-primary hover:text-white hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
             >
               Mehr über die Fair
             </Link>
@@ -115,7 +124,7 @@ export default function HomePage() {
 
       <section className="py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary mb-4">
+          <h2 className="text-2xl desktop:text-3xl font-display font-bold text-primary mb-4">
             Schlosspark Geislautern, Völklingen
           </h2>
           <p className="text-text-muted mb-6">
@@ -123,7 +132,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/anfahrt"
-            className="inline-block px-6 py-3 border-2 border-primary text-primary rounded font-semibold hover:bg-primary hover:text-white transition-colors"
+            className="inline-block px-6 py-3 border-2 border-primary text-primary rounded-3xl font-semibold hover:bg-primary hover:text-white hover:scale-105 shadow-card hover:shadow-card-hover transition-all"
           >
             Anfahrt &amp; Parken
           </Link>
