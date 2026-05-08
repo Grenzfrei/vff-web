@@ -20,27 +20,27 @@ export const EVENT_AREAS = [
   {
     name: "Mittelalter-Area",
     description: "Markt mit Handwerkern und Tavernen-Flair – Kostüme erwünscht.",
-    icon: "🏰",
+    icon: "castle",
   },
   {
     name: "Live-Musik",
     description: "Bands und Solokünstler:innen auf der Festivalbühne.",
-    icon: "🎵",
+    icon: "lyre",
   },
   {
     name: "Artist Alley",
     description: "Kreative Stände mit Kunst, Illustrationen und Handwerk.",
-    icon: "🎨",
+    icon: "scroll",
   },
   {
     name: "LARP-Spielfelder",
     description: "Fantasy-Rollenspiel zum Mitmachen für alle Altersgruppen.",
-    icon: "⚔️",
+    icon: "crossed-swords",
   },
   {
     name: "Veganer Streetfood",
     description: "Pflanzliche Küche von Foodtrucks und lokalen Anbietern.",
-    icon: "🥗",
+    icon: "cooking-pot",
   },
 ] as const;
 

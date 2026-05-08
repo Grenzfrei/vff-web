@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`EventAreaCard > matches snapshot 1`] = `
+<div
+  class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+>
+  <div
+    class="mb-4 flex justify-center"
+  >
+    <img
+      alt="Mittelalter-Area"
+      class="w-12 h-12"
+      data-nimg="1"
+      decoding="async"
+      height="48"
+      loading="lazy"
+      src="/icons/game-icons/castle.svg"
+      style="color: transparent;"
+      width="48"
+    />
+  </div>
+  <h3
+    class="text-lg font-semibold text-primary mb-2"
+  >
+    Mittelalter-Area
+  </h3>
+  <p
+    class="text-text-muted"
+  >
+    Markt mit Handwerkern und Tavernen-Flair
+  </p>
+</div>
+`;

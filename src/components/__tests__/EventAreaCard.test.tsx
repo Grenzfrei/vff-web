@@ -6,7 +6,7 @@ describe("EventAreaCard", () => {
   const area = {
     name: "Mittelalter-Area",
     description: "Markt mit Handwerkern und Tavernen-Flair",
-    icon: "🏰",
+    icon: "castle",
   };
 
   it("renders area name", () => {
@@ -19,13 +19,31 @@ describe("EventAreaCard", () => {
     expect(screen.getByText("Markt mit Handwerkern und Tavernen-Flair")).toBeDefined();
   });
 
-  it("renders icon when provided", () => {
-    render(<EventAreaCard area={area} />);
-    expect(screen.getByText("🏰")).toBeDefined();
+  it("renders Game Icon when provided", () => {
+    const { container } = render(<EventAreaCard area={area} />);
+    const img = container.querySelector('img[src*="castle"]');
+    expect(img).toBeDefined();
+    expect(img?.getAttribute("alt")).toBe("Mittelalter-Area");
   });
 
   it("renders without icon when not provided", () => {
-    render(<EventAreaCard area={{ name: "Test", description: "Desc" }} />);
-    expect(screen.queryByText("🏰")).toBeNull();
+    const { container } = render(
+      <EventAreaCard area={{ name: "Test", description: "Desc" }} />
+    );
+    const img = container.querySelector("img");
+    expect(img).toBeNull();
+  });
+
+  it("applies correct styling classes", () => {
+    const { container } = render(<EventAreaCard area={area} />);
+    const card = container.firstChild;
+    expect(card?.className).toContain("rounded-3xl");
+    expect(card?.className).toContain("shadow-card");
+    expect(card?.className).toContain("hover:shadow-card-hover");
+  });
+
+  it("matches snapshot", () => {
+    const { container } = render(<EventAreaCard area={area} />);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
