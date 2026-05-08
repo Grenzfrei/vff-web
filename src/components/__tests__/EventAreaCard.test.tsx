@@ -36,7 +36,7 @@ describe("EventAreaCard", () => {
 
   it("applies correct styling classes", () => {
     const { container } = render(<EventAreaCard area={area} />);
-    const card = container.firstChild;
+    const card = container.firstChild as Element | null;
     expect(card?.className).toContain("rounded-3xl");
     expect(card?.className).toContain("shadow-card");
     expect(card?.className).toContain("hover:shadow-card-hover");
