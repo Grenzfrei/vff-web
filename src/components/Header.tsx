@@ -10,8 +10,14 @@ export default function Header() {
   return (
     <header className="bg-surface-white border-b border-primary/20 sticky top-0 z-50">
       <div className="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-16">
-        <Link href="/" className="font-bold text-xl text-primary">
-          {EVENT.name}
+        <Link href="/" className="flex items-center gap-2">
+          <img
+            src="/images/vff-logo-header.webp"
+            alt={`${EVENT.name} Logo`}
+            width={329}
+            height={200}
+            className="h-10 w-auto"
+          />
         </Link>
 
         <button
@@ -51,6 +57,8 @@ export default function Header() {
           ))}
         </nav>
       )}
+
+      <div className="border-b border-secondary-light opacity-30"></div>
     </header>
   );
 }
