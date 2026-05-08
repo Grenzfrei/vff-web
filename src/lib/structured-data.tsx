@@ -9,7 +9,7 @@ export function OrganizationStructuredData() {
     email: COMPANY.email,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Saarbruecken",
+      addressLocality: "Saarbrücken",
       addressCountry: "DE",
     },
   };

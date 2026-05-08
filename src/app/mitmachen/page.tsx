@@ -18,7 +18,7 @@ export default function MitmachenPage() {
             Als Aussteller:in bewerben
           </h2>
           <p className="text-text-muted mb-8 leading-relaxed">
-            Ihr moechtet mit eurem Stand auf der Vegan Fantasy Fair vertreten sein?
+            Ihr möchtet mit eurem Stand auf der Vegan Fantasy Fair vertreten sein?
             Ob vegane Produkte, Foodtruck, Kunsthandwerk oder Info-Stand —
             wir freuen uns auf eure Bewerbung!
           </p>
@@ -28,8 +28,8 @@ export default function MitmachenPage() {
               Standplatz-Anfrage
             </h3>
             <p className="text-text-muted mb-6">
-              Fuer Standplatz-Anfragen und weitere Informationen zu Konditionen
-              und Verfuegbarkeit meldet euch bitte direkt per E-Mail bei uns:
+              Für Standplatz-Anfragen und weitere Informationen zu Konditionen
+              und Verfügbarkeit meldet euch bitte direkt per E-Mail bei uns:
             </p>
             <a
               href="mailto:info@veganfantasyfair.de"
@@ -45,11 +45,11 @@ export default function MitmachenPage() {
           <div className="grid gap-4 tablet:grid-cols-2">
             {[
               { title: "Vegane Produkte", desc: "Lebensmittel, Kosmetik, Mode" },
-              { title: "Food & Streetfood", desc: "Foodtrucks und Getraenkestaende" },
+              { title: "Food & Streetfood", desc: "Foodtrucks und Getränkestände" },
               { title: "Kunsthandwerk", desc: "Handgemachtes, Illustrationen, Art" },
               { title: "Info & Vereine", desc: "Non-Profit, Tierschutz, Bildung" },
               { title: "LARP & Fantasy", desc: "Gewandungen, Schmuck, Accessoires" },
-              { title: "Workshops", desc: "Mitmach-Aktionen fuer Besucher:innen" },
+              { title: "Workshops", desc: "Mitmach-Aktionen für Besucher:innen" },
             ].map((cat) => (
               <div key={cat.title} className="bg-surface p-4 rounded-lg">
                 <h3 className="font-semibold text-primary">{cat.title}</h3>

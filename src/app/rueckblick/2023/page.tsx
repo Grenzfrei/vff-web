@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Rueckblick 2023 — Vegan Fantasy Fair",
-  description: "Rueckblick 2023 der Vegan Fantasy Fair (Wix-Migration 2026-05-08).",
+  title: "Rückblick 2023 — Vegan Fantasy Fair",
+  description: "Rückblick 2023 der Vegan Fantasy Fair (Wix-Migration 2026-05-08).",
 };
 
 export default function Rueckblick2023Page() {
@@ -8,7 +8,7 @@ export default function Rueckblick2023Page() {
     <>
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">Rueckblick 2023</h1>
+          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">Rückblick 2023</h1>
           <p className="text-sm text-text-muted">
             Inhalt migriert von{" "}
             <a href="https://www.veganfantasyfair.de/rückblick2023" className="underline" target="_blank" rel="noopener noreferrer">

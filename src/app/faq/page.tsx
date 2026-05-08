@@ -24,7 +24,7 @@ export default function FaqPage() {
         <h1 className="text-3xl font-bold text-primary mb-8">FAQ</h1>
 
         {faqs.length === 0 ? (
-          <p className="text-text-muted">Aktuell keine FAQ-Eintraege vorhanden.</p>
+          <p className="text-text-muted">Aktuell keine FAQ-Einträge vorhanden.</p>
         ) : (
           <Accordion items={faqs} />
         )}

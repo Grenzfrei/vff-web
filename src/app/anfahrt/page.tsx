@@ -7,7 +7,7 @@ export default function AnfahrtPage() {
             Anfahrt
           </h1>
           <p className="text-lg text-text-muted">
-            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Voelklingen
+            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
           </p>
         </div>
       </section>
@@ -21,7 +21,7 @@ export default function AnfahrtPage() {
               </h2>
               <div className="bg-surface p-6 rounded-lg">
                 <p className="font-semibold text-lg">Schlosspark Geislautern</p>
-                <p className="text-text-muted">66333 Voelklingen</p>
+                <p className="text-text-muted">66333 Völklingen</p>
                 <p className="text-text-muted">Saarland, Deutschland</p>
               </div>
 
@@ -31,19 +31,19 @@ export default function AnfahrtPage() {
               <ul className="space-y-3 text-text-muted">
                 <li>
                   <strong className="text-text">Navigation:</strong> &bdquo;Schlosspark
-                  Geislautern, Voelklingen&ldquo;
+                  Geislautern, Völklingen&ldquo;
                 </li>
                 <li>
-                  <strong className="text-text">Aus Richtung Saarbruecken:</strong>{" "}
-                  ueber die B51 Richtung Voelklingen, Abfahrt Geislautern
+                  <strong className="text-text">Aus Richtung Saarbrücken:</strong>{" "}
+                  über die B51 Richtung Völklingen, Abfahrt Geislautern
                 </li>
                 <li>
                   <strong className="text-text">Aus Richtung Saarlouis/Trier:</strong>{" "}
-                  ueber die A620, Abfahrt Voelklingen
+                  über die A620, Abfahrt Völklingen
                 </li>
                 <li>
-                  <strong className="text-text">Parken:</strong> Kostenlose Parkplaetze am
-                  Gelaende (Details folgen)
+                  <strong className="text-text">Parken:</strong> Kostenlose Parkplätze am
+                  Gelände (Details folgen)
                 </li>
               </ul>
 
@@ -52,12 +52,12 @@ export default function AnfahrtPage() {
               </h2>
               <ul className="space-y-3 text-text-muted">
                 <li>
-                  <strong className="text-text">Bahnhof Voelklingen:</strong>{" "}
-                  Regionalzuege und S-Bahn aus Saarbruecken, Saarlouis, Trier
+                  <strong className="text-text">Bahnhof Völklingen:</strong>{" "}
+                  Regionalzüge und S-Bahn aus Saarbrücken, Saarlouis, Trier
                 </li>
                 <li>
                   <strong className="text-text">Bus:</strong>{" "}
-                  Verbindung vom Bahnhof Voelklingen zum Schlosspark
+                  Verbindung vom Bahnhof Völklingen zum Schlosspark
                 </li>
                 <li>
                   Fahrplanauskunft:{" "}
@@ -85,8 +85,8 @@ export default function AnfahrtPage() {
                 Fahrrad
               </h2>
               <p className="text-text-muted">
-                Vom Bahnhof Voelklingen oder aus Saarbruecken ist der Schlosspark
-                Geislautern per Fahrrad erreichbar. Fahrradstaender sind am Gelaende
+                Vom Bahnhof Völklingen oder aus Saarbrücken ist der Schlosspark
+                Geislautern per Fahrrad erreichbar. Fahrradständer sind am Gelände
                 vorhanden.
               </p>
             </div>
@@ -108,7 +108,7 @@ export default function AnfahrtPage() {
 
               <div className="bg-surface p-6 rounded-lg mt-8">
                 <h3 className="text-lg font-semibold text-primary mb-2">
-                  Hinweis fuer Aussteller:innen
+                  Hinweis für Aussteller:innen
                 </h3>
                 <p className="text-text-muted text-sm">
                   Details zur Anlieferung und Aufbau-Zeiten erhalten angemeldete

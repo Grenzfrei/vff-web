@@ -7,7 +7,7 @@ export default function AusstellerPage() {
             Werde Teil der Vegan Fantasy Fair
           </h1>
           <p className="text-lg text-text-muted mb-6">
-            4. &amp; 5. Juli 2026 &middot; Schlosspark Geislautern, Voelklingen
+            4. &amp; 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
           </p>
           <a
             href="mailto:info@veganfantasyfair.de"
@@ -26,20 +26,20 @@ export default function AusstellerPage() {
           <div className="grid gap-6 tablet:grid-cols-2">
             {[
               {
-                title: "Grosse Reichweite",
+                title: "Große Reichweite",
                 desc: "Erreich eine engagierte Community aus Vegan-Enthusiast:innen und neugierigen Besucher:innen.",
               },
               {
                 title: "Professionelle Plattform",
-                desc: "Praesentier deine Produkte und Dienstleistungen auf einer wachsenden Community-Veranstaltung mit engagiertem Publikum.",
+                desc: "Präsentier deine Produkte und Dienstleistungen auf einer wachsenden Community-Veranstaltung mit engagiertem Publikum.",
               },
               {
                 title: "Community-Netzwerk",
-                desc: "Vernetz dich mit gleichgesinnten Ausstellenden und knuepf langfristige Geschaeftsbeziehungen.",
+                desc: "Vernetz dich mit gleichgesinnten Ausstellenden und knüpf langfristige Geschäftsbeziehungen.",
               },
               {
                 title: "Medienaufmerksamkeit",
-                desc: "Der VFF erhaelt Berichterstattung in lokalen Medien und Social-Media-Kanaelen.",
+                desc: "Der VFF erhält Berichterstattung in lokalen Medien und Social-Media-Kanälen.",
               },
             ].map((benefit) => (
               <div
@@ -66,7 +66,7 @@ export default function AusstellerPage() {
               {
                 icon: "\uD83C\uDF31",
                 title: "Veganes Food",
-                desc: "Restaurants, Caterer, Food Trucks, Baeckereien, Suesswaren, Getraenke",
+                desc: "Restaurants, Caterer, Food Trucks, Bäckereien, Süßwaren, Getränke",
               },
               {
                 icon: "\uD83D\uDEE0\uFE0F",
@@ -76,7 +76,7 @@ export default function AusstellerPage() {
               {
                 icon: "\uD83C\uDFA8",
                 title: "Kunst & Design",
-                desc: "Kuenstler:innen, Designer:innen, Illustrator:innen, Schmuck, Mode, Fotografie",
+                desc: "Künstler:innen, Designer:innen, Illustrator:innen, Schmuck, Mode, Fotografie",
               },
               {
                 icon: "\uD83C\uDFAD",
@@ -107,17 +107,17 @@ export default function AusstellerPage() {
               {
                 step: "1",
                 title: "Informationen sammeln",
-                desc: "Lies alle Details ueber die verfuegbaren Stand-Groessen und Preise. Bei Fragen kontaktier unser Team.",
+                desc: "Lies alle Details über die verfügbaren Stand-Größen und Preise. Bei Fragen kontaktier unser Team.",
               },
               {
                 step: "2",
-                title: "Online-Formular ausfuellen",
-                desc: "Fuell unser Bewerbungsformular aus. Sag uns, welche Kategorie am besten zu dir passt und stell dein Business vor.",
+                title: "Online-Formular ausfüllen",
+                desc: "Füll unser Bewerbungsformular aus. Sag uns, welche Kategorie am besten zu dir passt und stell dein Business vor.",
               },
               {
                 step: "3",
-                title: "Bestaetigung erhalten",
-                desc: "Nach der Pruefung deiner Bewerbung erhaeltst du eine Bestaetigungs-E-Mail mit allen weiteren Details und Zahlungsinformationen.",
+                title: "Bestätigung erhalten",
+                desc: "Nach der Prüfung deiner Bewerbung erhältst du eine Bestätigungs-E-Mail mit allen weiteren Details und Zahlungsinformationen.",
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
@@ -137,14 +137,14 @@ export default function AusstellerPage() {
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4">
           <h2 className="text-2xl font-bold text-primary text-center mb-8">
-            Stand-Groessen &amp; Preise
+            Stand-Größen &amp; Preise
           </h2>
           <div className="overflow-x-auto max-w-2xl mx-auto">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="border-b border-gray-200">
                   <th className="py-3 px-4 text-text font-semibold text-sm">
-                    Groesse
+                    Größe
                   </th>
                   <th className="py-3 px-4 text-text font-semibold text-sm">
                     Abmessungen
@@ -163,19 +163,19 @@ export default function AusstellerPage() {
                     size: "Klein",
                     dim: "Details folgen",
                     price: "Details folgen",
-                    desc: "Perfekt fuer kleine Anbieter und Start-ups",
+                    desc: "Perfekt für kleine Anbieter und Start-ups",
                   },
                   {
                     size: "Mittel",
                     dim: "Details folgen",
                     price: "Details folgen",
-                    desc: "Standard fuer die meisten Anbieter",
+                    desc: "Standard für die meisten Anbieter",
                   },
                   {
-                    size: "Gross",
+                    size: "Groß",
                     dim: "Details folgen",
                     price: "Details folgen",
-                    desc: "Ideal fuer etablierte Businesses mit grossem Sortiment",
+                    desc: "Ideal für etablierte Businesses mit großem Sortiment",
                   },
                 ].map((row) => (
                   <tr key={row.size} className="border-b border-gray-100">
@@ -193,7 +193,7 @@ export default function AusstellerPage() {
             </table>
           </div>
           <p className="text-center text-text-muted text-sm mt-6">
-            Alle Groessen beinhalten: Tischplatz, Stromanschluss, Wasser/Abwasser
+            Alle Größen beinhalten: Tischplatz, Stromanschluss, Wasser/Abwasser
             (wo relevant).
           </p>
         </div>
@@ -212,7 +212,7 @@ export default function AusstellerPage() {
                 label: "Benachrichtigung Annahme/Absage",
                 value: "Wird bekannt gegeben",
               },
-              { label: "Bezahlung faellig bis", value: "Wird bekannt gegeben" },
+              { label: "Bezahlung fällig bis", value: "Wird bekannt gegeben" },
               { label: "Event", value: "4. & 5. Juli 2026" },
             ].map((row) => (
               <div
@@ -230,7 +230,7 @@ export default function AusstellerPage() {
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 max-w-2xl">
           <h2 className="text-2xl font-bold text-primary mb-6">
-            Haeufige Fragen von Aussteller:innen
+            Häufige Fragen von Aussteller:innen
           </h2>
           <div className="space-y-4">
             {[
@@ -239,24 +239,24 @@ export default function AusstellerPage() {
                 a: "Ja, bring deine Ausstattung gerne mit. Bitte teil uns im Formular mit, wenn du spezielle Anforderungen hast.",
               },
               {
-                q: "Gibt es eine Mindestverkaufsgebuehr?",
-                a: "Nein, du zahlst nur die Stand-Gebuehr gemaess deiner gewaehlten Groesse. Alle Verkaeufe gehen zu 100 % an dich.",
+                q: "Gibt es eine Mindestverkaufsgebühr?",
+                a: "Nein, du zahlst nur die Stand-Gebühr gemäß deiner gewählten Größe. Alle Verkäufe gehen zu 100 % an dich.",
               },
               {
-                q: "Sind Rabatte fuer mehrere Tage verfuegbar?",
-                a: "Ja! Bei Buchung fuer beide Tage gewaehren wir einen Rabatt auf die Stand-Gebuehr. Details bei Bewerbung.",
+                q: "Sind Rabatte für mehrere Tage verfügbar?",
+                a: "Ja! Bei Buchung für beide Tage gewähren wir einen Rabatt auf die Stand-Gebühr. Details bei Bewerbung.",
               },
               {
                 q: "Wie ist das Aufbau-Timing?",
-                a: "Details zu Aufbau- und Abbau-Zeiten erhaeltst du mit der Bestaetigungs-E-Mail.",
+                a: "Details zu Aufbau- und Abbau-Zeiten erhältst du mit der Bestätigungs-E-Mail.",
               },
               {
                 q: "Kann ich mein Stand-Team mitbringen?",
-                a: "Ja, du darfst Helfende pro Stand mitbringen. Du benoetigst ein kostenloses Team-Badge. Details bei Bewerbung.",
+                a: "Ja, du darfst Helfende pro Stand mitbringen. Du benötigst ein kostenloses Team-Badge. Details bei Bewerbung.",
               },
               {
-                q: "Was ist mit Parkplaetzen?",
-                a: "Fuer Ausstellende reservieren wir kostenlose Parkplaetze in der Naehe des Veranstaltungsgelaendes.",
+                q: "Was ist mit Parkplätzen?",
+                a: "Für Ausstellende reservieren wir kostenlose Parkplätze in der Nähe des Veranstaltungsgeländes.",
               },
             ].map((faq) => (
               <details

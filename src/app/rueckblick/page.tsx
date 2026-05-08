@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Rueckblick — Vegan Fantasy Fair",
-  description: "Rueckblick der Vegan Fantasy Fair (Wix-Migration 2026-05-08).",
+  title: "Rückblick — Vegan Fantasy Fair",
+  description: "Rückblick der Vegan Fantasy Fair (Wix-Migration 2026-05-08).",
 };
 
 export default function RueckblickPage() {
@@ -8,7 +8,7 @@ export default function RueckblickPage() {
     <>
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">Rueckblick</h1>
+          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">Rückblick</h1>
           <p className="text-sm text-text-muted">
             Inhalt migriert von{" "}
             <a href="https://www.veganfantasyfair.de/rueckblick" className="underline" target="_blank" rel="noopener noreferrer">
