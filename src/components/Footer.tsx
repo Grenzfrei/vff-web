@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { EVENT, COMPANY, SOCIAL } from "@/lib/constants";
+import DividerLeaf from "./prefabs/DividerLeaf";
 
 export default function Footer() {
   return (
-    <footer className="bg-footer text-white py-8">
+    <footer className="bg-surface text-text py-12 desktop:py-16">
       <div className="max-w-[1200px] mx-auto px-4">
+        <div className="mb-8">
+          <DividerLeaf direction="horizontal" color="secondary-light" opacity="50" />
+        </div>
         <div className="flex flex-col tablet:flex-row justify-between gap-6">
           <div>
             <p className="font-bold text-lg">{EVENT.name}</p>
