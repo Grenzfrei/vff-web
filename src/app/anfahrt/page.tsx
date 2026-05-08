@@ -1,10 +1,124 @@
 export default function AnfahrtPage() {
   return (
-    <section className="py-section-mobile desktop:py-section-desktop">
-      <div className="max-w-[1200px] mx-auto px-4">
-        <h1 className="text-3xl font-bold text-primary mb-8">Anfahrt</h1>
-        <p className="text-text-muted">Informationen zur Anfahrt folgen.</p>
-      </div>
-    </section>
+    <>
+      <section className="bg-surface py-section-mobile desktop:py-section-desktop">
+        <div className="max-w-[1200px] mx-auto px-4 text-center">
+          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">
+            Anfahrt
+          </h1>
+          <p className="text-lg text-text-muted">
+            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Voelklingen
+          </p>
+        </div>
+      </section>
+
+      <section className="py-section-mobile desktop:py-section-desktop">
+        <div className="max-w-[1200px] mx-auto px-4">
+          <div className="grid tablet:grid-cols-2 gap-10">
+            <div>
+              <h2 className="text-2xl font-bold text-primary mb-4">
+                Veranstaltungsort
+              </h2>
+              <div className="bg-surface p-6 rounded-lg">
+                <p className="font-semibold text-lg">Schlosspark Geislautern</p>
+                <p className="text-text-muted">66333 Voelklingen</p>
+                <p className="text-text-muted">Saarland, Deutschland</p>
+              </div>
+
+              <h2 className="text-2xl font-bold text-primary mb-4 mt-8">
+                Mit dem Auto
+              </h2>
+              <ul className="space-y-3 text-text-muted">
+                <li>
+                  <strong className="text-text">Navigation:</strong> &bdquo;Schlosspark
+                  Geislautern, Voelklingen&ldquo;
+                </li>
+                <li>
+                  <strong className="text-text">Aus Richtung Saarbruecken:</strong>{" "}
+                  ueber die B51 Richtung Voelklingen, Abfahrt Geislautern
+                </li>
+                <li>
+                  <strong className="text-text">Aus Richtung Saarlouis/Trier:</strong>{" "}
+                  ueber die A620, Abfahrt Voelklingen
+                </li>
+                <li>
+                  <strong className="text-text">Parken:</strong> Kostenlose Parkplaetze am
+                  Gelaende (Details folgen)
+                </li>
+              </ul>
+
+              <h2 className="text-2xl font-bold text-primary mb-4 mt-8">
+                Mit Bus &amp; Bahn
+              </h2>
+              <ul className="space-y-3 text-text-muted">
+                <li>
+                  <strong className="text-text">Bahnhof Voelklingen:</strong>{" "}
+                  Regionalzuege und S-Bahn aus Saarbruecken, Saarlouis, Trier
+                </li>
+                <li>
+                  <strong className="text-text">Bus:</strong>{" "}
+                  Verbindung vom Bahnhof Voelklingen zum Schlosspark
+                </li>
+                <li>
+                  Fahrplanauskunft:{" "}
+                  <a
+                    href="https://www.bahn.de"
+                    className="text-secondary underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    bahn.de
+                  </a>{" "}
+                  &middot;{" "}
+                  <a
+                    href="https://www.saarvv.de"
+                    className="text-secondary underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    saarvv.de
+                  </a>
+                </li>
+              </ul>
+
+              <h2 className="text-2xl font-bold text-primary mb-4 mt-8">
+                Fahrrad
+              </h2>
+              <p className="text-text-muted">
+                Vom Bahnhof Voelklingen oder aus Saarbruecken ist der Schlosspark
+                Geislautern per Fahrrad erreichbar. Fahrradstaender sind am Gelaende
+                vorhanden.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold text-primary mb-4">Karte</h2>
+              <div className="bg-surface rounded-lg overflow-hidden aspect-[4/3]">
+                <iframe
+                  title="Schlosspark Geislautern auf Google Maps"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.123456789!2d6.823!3d49.237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795a9be2a012345%3A0x1234567890abcdef!2sSchlosspark+Geislautern!5e0!3m2!1sde!2sde!4v1234567890"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+
+              <div className="bg-surface p-6 rounded-lg mt-8">
+                <h3 className="text-lg font-semibold text-primary mb-2">
+                  Hinweis fuer Aussteller:innen
+                </h3>
+                <p className="text-text-muted text-sm">
+                  Details zur Anlieferung und Aufbau-Zeiten erhalten angemeldete
+                  Aussteller:innen separat per E-Mail.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

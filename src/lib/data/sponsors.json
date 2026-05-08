@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "name": "Moses Verlag",
+    "logo": "https://static.wixstatic.com/media/70b5d0_0141c75722664b55a4a03f2c9e539c90~mv2.jpg",
+    "url": "https://www.moses-verlag.de",
+    "tier": "",
+    "order": 1
+  },
+  {
+    "name": "Zauberfeder",
+    "logo": "https://static.wixstatic.com/media/70b5d0_fb429ea40f0148c6b46f55503cb179e4~mv2.gif",
+    "url": "https://zauberfeder.de",
+    "tier": "",
+    "order": 2
+  },
+  {
+    "name": "Bücherrettung",
+    "logo": "https://static.wixstatic.com/media/70b5d0_e11b9d0011414dfe8d9fe5935d25a3fd~mv2.png",
+    "url": "https://buecherrettung.de",
+    "tier": "",
+    "order": 3
+  },
+  {
+    "name": "Asmodee",
+    "logo": "https://static.wixstatic.com/media/70b5d0_f6060ca1c1c14248bb927623c733067b~mv2.png",
+    "url": "https://www.asmodee.de",
+    "tier": "",
+    "order": 4
+  },
+  {
+    "name": "Next Heroes",
+    "logo": "https://static.wixstatic.com/media/70b5d0_22578266698246eebad2a14cd473fd8f~mv2.png",
+    "url": "https://www.next-heroes.de",
+    "tier": "",
+    "order": 5
+  },
+  {
+    "name": "LARP ist BUNT",
+    "logo": "https://static.wixstatic.com/media/70b5d0_ff7ba699f9e44becb31967ef0346785c~mv2.png",
+    "url": "https://www.mconis.de/larp-ist-bunt",
+    "tier": "",
+    "order": 6
+  },
+  {
+    "name": "Nice Game Publishing",
+    "logo": "https://static.wixstatic.com/media/70b5d0_ed7ca1e1095841bf94d1669a9e22ab86~mv2.png",
+    "url": "https://www.nicegamepublishing.com",
+    "tier": "",
+    "order": 7
+  },
+  {
+    "name": "Julia Klein Illustration",
+    "logo": "https://static.wixstatic.com/media/70b5d0_ee23ff1fba8d4679933b9e3ea99ab52b~mv2.jpg",
+    "url": "https://www.instagram.com/juliakleinillustration",
+    "tier": "",
+    "order": 8
+  },
+  {
+    "name": "INSZENE Media",
+    "logo": "https://static.wixstatic.com/media/70b5d0_b357e2133bee4499b1925ae5c0ac19df~mv2.png",
+    "url": "https://in-szene.net",
+    "tier": "",
+    "order": 9
+  },
+  {
+    "name": "Drums'n'More",
+    "logo": "https://static.wixstatic.com/media/70b5d0_ca01574c223f49d7889e94aaa905e69f~mv2.jpeg",
+    "url": "https://www.drummer-marc.de/drumschool",
+    "tier": "",
+    "order": 10
+  },
+  {
+    "name": "Ultimate Guard",
+    "logo": "https://static.wixstatic.com/media/70b5d0_b644556b98cb49fe96b28811a0b62463~mv2.png",
+    "url": "https://ultimateguard.com/de",
+    "tier": "",
+    "order": 11
+  }
+]

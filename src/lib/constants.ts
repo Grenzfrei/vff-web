@@ -45,10 +45,10 @@ export const EVENT_AREAS = [
 ] as const;
 
 export const NAV_ITEMS = [
-  { label: "Events", href: "/events" },
+  { label: "Die Fair", href: "/die-fair" },
+  { label: "Programm", href: "/programm" },
+  { label: "Mitmachen", href: "/mitmachen" },
   { label: "Aussteller", href: "/aussteller" },
-  { label: "Sponsoren", href: "/sponsoren" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Team", href: "/team" },
   { label: "Anfahrt", href: "/anfahrt" },
+  { label: "FAQ", href: "/faq" },
 ] as const;
