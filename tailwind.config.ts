@@ -35,26 +35,27 @@ const config: Config = {
         },
         footer: "#33302F",
       },
-      fontFamily: {
-        sans: ["Barlow", "Arial", "sans-serif"],
-      },
-      fontSize: {
-        base: ["16px", "1.5"],
+      borderRadius: {
+        lg: "0.5rem",
+        "2xl": "1rem",
+        "3xl": "1.5rem",
       },
       boxShadow: {
-        card: "0 4px 15px rgba(0, 0, 0, 0.18)",
+        "card": "0 4px 12px rgba(160, 48, 32, 0.08)",
+        "card-hover": "0 8px 20px rgba(160, 48, 32, 0.12)",
+        "ornament": "0 2px 8px rgba(208, 160, 80, 0.15)",
+      },
+      fontFamily: {
+        sans: ["Barlow", "Arial", "sans-serif"],
+        display: ["Cinzel", "serif"],
       },
       spacing: {
-        "section-mobile": "40px",
-        "section-desktop": "80px",
-      },
-      screens: {
-        tablet: "768px",
-        desktop: "992px",
-        wide: "1200px",
+        "section-mobile": "2rem",
+        "section-desktop": "4rem",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
