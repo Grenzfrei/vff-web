@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow } from "next/font/google";
+import { Barlow, Cinzel } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -12,13 +12,30 @@ const barlow = Barlow({
   display: "swap",
 });
 
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "700"],
+});
+
 export const metadata: Metadata = {
-  title: "Vegan Fantasy Fair",
-  description: "Die vegane Messe mit Fantasy-Flair",
+  title: {
+    default: "Vegan Fantasy Fair | Veganes Festival mit Fantasy-Flair",
+    template: "%s | Vegan Fantasy Fair",
+  },
+  description:
+    "Vegan Fantasy Fair am 4. & 5. Juli 2026 im Schlosspark Geislautern, Völklingen. Vegane Messe mit Fantasy, Cosplay, Live-Musik, Streetfood und Kunsthandwerk.",
   openGraph: {
     type: "website",
     locale: "de_DE",
     siteName: "Vegan Fantasy Fair",
+    title: "Vegan Fantasy Fair | Veganes Festival mit Fantasy-Flair",
+    description:
+      "Vegan Fantasy Fair am 4. & 5. Juli 2026 im Schlosspark Geislautern, Völklingen.",
+  },
+  icons: {
+    icon: "/images/favicon-32x32.png",
+    apple: "/images/apple-touch-icon.png",
   },
 };
 
@@ -28,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de" className={barlow.variable}>
+    <html lang="de" className={`${cinzel.className} ${barlow.variable}`}>
       <head>
         <OrganizationStructuredData />
       </head>
