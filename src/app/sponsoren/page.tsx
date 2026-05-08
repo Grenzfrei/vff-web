@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import sponsorsData from "@/lib/data/sponsors.json";
+
+export const metadata: Metadata = {
+  title: "Sponsoren",
+  description:
+    "Unsere Sponsoren und Partner der Vegan Fantasy Fair 2026 — von Verlagen u00FCber Spielehersteller bis zu lokalen Initiativen.",
+};
 
 interface Sponsor {
   name: string;
@@ -19,21 +26,33 @@ export default function SponsorenPage() {
         {sponsors.length === 0 ? (
           <p className="text-text-muted">Aktuell keine Sponsoren eingetragen.</p>
         ) : (
-          <div className="grid gap-6 tablet:grid-cols-3">
+          <div className="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3">
             {sponsors.map((sponsor) => (
               <a
                 key={sponsor.name}
                 href={sponsor.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-surface p-6 rounded-lg shadow-card text-center hover:shadow-lg transition-shadow"
+                className="bg-surface-white p-6 rounded-lg shadow-card flex flex-col items-center justify-center gap-3 hover:shadow-lg transition-shadow min-h-[160px]"
               >
-                <p className="font-semibold">{sponsor.name}</p>
-                <p className="text-sm text-text-muted mt-1">{sponsor.tier}</p>
+                <img
+                  src={sponsor.logo}
+                  alt={`Logo ${sponsor.name}`}
+                  loading="lazy"
+                  className="max-h-20 max-w-[160px] object-contain"
+                />
+                <p className="text-sm font-medium text-text">{sponsor.name}</p>
               </a>
             ))}
           </div>
         )}
+
+        <p className="text-center text-text-muted text-sm mt-10">
+          Ihr m&ouml;chtet Sponsor oder Partner der Vegan Fantasy Fair werden?{" "}
+          <a href="mailto:info@veganfantasyfair.de" className="text-secondary underline">
+            info@veganfantasyfair.de
+          </a>
+        </p>
       </div>
     </section>
   );

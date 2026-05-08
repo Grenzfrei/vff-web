@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://veganfantasyfair.de/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://veganfantasyfair.de/die-fair/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://veganfantasyfair.de/programm/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://veganfantasyfair.de/aussteller/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://veganfantasyfair.de/mitmachen/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://veganfantasyfair.de/anfahrt/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://veganfantasyfair.de/faq/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://veganfantasyfair.de/team/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://veganfantasyfair.de/sponsoren/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://veganfantasyfair.de/impressum/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://veganfantasyfair.de/datenschutz/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://veganfantasyfair.de/agb/</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

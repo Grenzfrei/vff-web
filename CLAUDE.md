@@ -9,10 +9,11 @@ npm run sync      # Google Sheets → JSON Sync (via gws CLI)
 npm run lint      # ESLint
 ```
 
-## Status (2026-04-25)
-- **Migration ON-HOLD bis post-event Juli 2026** (Board-Entscheidung). Wix-Site bleibt produktiv.
-- Drafts in `docs/page-content-*.md` bei Wiederaufnahme neu evaluieren.
-- Vault: `vault/projects/vff-wordpress-migration-hold.md`
+## Status (2026-05-08)
+- **Migration AKTIV** — CEO-Direktive vom 08.05.2026: sofort starten. 75 Tage bis Event (4.-5. Juli 2026).
+- vff-web deployed auf Cloudflare Pages (vff-web.pages.dev).
+- Domain-Cutover veganfantasyfair.de → CF Pages pending NEXA-244.
+- Content (FAQ, Team, Events) aus Google Sheets — sync via `npm run sync`.
 
 ## Stack
 - Next.js 14 (App Router), TypeScript strict, Tailwind CSS 3.4

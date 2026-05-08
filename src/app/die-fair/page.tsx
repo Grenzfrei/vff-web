@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import { EVENT_AREAS, EVENT } from "@/lib/constants";
 import EventAreaCard from "@/components/EventAreaCard";
 import { EventStructuredData } from "@/lib/structured-data";
+
+export const metadata: Metadata = {
+  title: "Die Fair",
+  description:
+    "Erfahre alles \u00FCber die Vegan Fantasy Fair am 4. & 5. Juli 2026 im Schlosspark Geislautern. F\u00FCnf Areas, 10.000 qm, veganes Festival mit Fantasy-Flair.",
+};
 
 export default function DieFairPage() {
   return (

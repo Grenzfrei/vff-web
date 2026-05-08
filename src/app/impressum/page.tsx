@@ -1,4 +1,9 @@
+import type { Metadata } from "next";
 import { COMPANY } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "Impressum",
+};
 
 export default function ImpressumPage() {
   return (

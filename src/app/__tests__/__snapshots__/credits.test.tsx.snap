@@ -1,0 +1,184 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CreditsPage > matches snapshot 1`] = `
+<div>
+  <section
+    class="py-12 desktop:py-16"
+  >
+    <div
+      class="max-w-[1200px] mx-auto px-4"
+    >
+      <h1
+        class="font-display text-4xl desktop:text-5xl font-bold text-primary mb-8 text-center"
+      >
+        Credits
+      </h1>
+      <div
+        class="max-w-2xl mx-auto space-y-8"
+      >
+        <div
+          class="bg-surface p-6 rounded-3xl"
+        >
+          <h2
+            class="text-2xl font-semibold text-primary mb-3"
+          >
+            Game Icons
+          </h2>
+          <p
+            class="text-text-muted mb-3"
+          >
+            Decorative icons used throughout the site are from
+             
+            <a
+              class="text-secondary hover:text-secondary-light underline"
+              href="https://game-icons.net"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Game Icons
+            </a>
+            .
+          </p>
+          <p
+            class="text-text-muted text-sm mb-2"
+          >
+            <strong>
+              License:
+            </strong>
+             CC BY 3.0
+          </p>
+          <p
+            class="text-text-muted text-sm"
+          >
+            <strong>
+              Attribution:
+            </strong>
+             Icons by Game Icons (https://game-icons.net)
+          </p>
+          <p
+            class="text-text-muted text-sm mt-2"
+          >
+            <strong>
+              License Text:
+            </strong>
+             You are free to copy, modify, and distribute these works, even for commercial purposes, all without asking permission as long as you provide attribution.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl"
+        >
+          <h2
+            class="text-2xl font-semibold text-primary mb-3"
+          >
+            Typography
+          </h2>
+          <p
+            class="text-text-muted mb-3"
+          >
+            Display and accent fonts are provided by Google Fonts under the OFL (Open Font License).
+          </p>
+          <ul
+            class="list-disc list-inside space-y-2 text-text-muted text-sm"
+          >
+            <li>
+              <strong>
+                Cinzel
+              </strong>
+               (Display) —
+               
+              <a
+                class="text-secondary hover:text-secondary-light underline"
+                href="https://fonts.google.com/specimen/Cinzel"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Google Fonts
+              </a>
+            </li>
+            <li>
+              <strong>
+                Dancing Script
+              </strong>
+               (Accent) —
+               
+              <a
+                class="text-secondary hover:text-secondary-light underline"
+                href="https://fonts.google.com/specimen/Dancing+Script"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Google Fonts
+              </a>
+            </li>
+            <li>
+              <strong>
+                Barlow
+              </strong>
+               (Body) —
+               
+              <a
+                class="text-secondary hover:text-secondary-light underline"
+                href="https://fonts.google.com/specimen/Barlow"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Google Fonts
+              </a>
+            </li>
+          </ul>
+          <p
+            class="text-text-muted text-sm mt-4"
+          >
+            <strong>
+              License:
+            </strong>
+             OFL (Open Font License)
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl"
+        >
+          <h2
+            class="text-2xl font-semibold text-primary mb-3"
+          >
+            Patterns & Backgrounds
+          </h2>
+          <p
+            class="text-text-muted mb-3"
+          >
+            Decorative background patterns are sourced from
+             
+            <a
+              class="text-secondary hover:text-secondary-light underline"
+              href="https://www.heropatterns.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Hero Patterns
+            </a>
+            .
+          </p>
+          <p
+            class="text-text-muted text-sm"
+          >
+            <strong>
+              License:
+            </strong>
+             CC BY 4.0
+          </p>
+        </div>
+        <div
+          class="text-center mt-8"
+        >
+          <a
+            class="px-6 py-3 bg-primary text-white rounded-3xl font-semibold hover:bg-opacity-90 transition-all shadow-card"
+            href="/"
+          >
+            Zurück zur Startseite
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

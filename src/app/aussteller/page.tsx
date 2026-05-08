@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Aussteller",
+  description:
+    "Werde Aussteller:in auf der Vegan Fantasy Fair 2026. Standkategorien, Preise und Bewerbungsprozess f\u00FCr vegane Marken, Foodtrucks und Kunsthandwerk.",
+};
+
 export default function AusstellerPage() {
   return (
     <>

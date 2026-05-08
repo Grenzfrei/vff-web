@@ -29,12 +29,25 @@ export function EventStructuredData() {
     name: EVENT.name,
     description: EVENT.tagline,
     url: EVENT.url,
+    startDate: "2026-07-04T10:00:00+02:00",
+    endDate: "2026-07-05T20:00:00+02:00",
     eventStatus: "https://schema.org/EventScheduled",
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    location: {
+      "@type": "Place",
+      name: "Schlosspark Geislautern",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "V\u00F6lklingen",
+        addressRegion: "Saarland",
+        addressCountry: "DE",
+      },
+    },
     organizer: {
       "@type": "Organization",
       name: COMPANY.name,
       url: EVENT.url,
+      email: COMPANY.email,
     },
   };
 

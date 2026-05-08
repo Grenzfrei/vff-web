@@ -1,0 +1,102 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > matches snapshot 1`] = `
+<footer
+  class="bg-surface text-text py-12 desktop:py-16"
+>
+  <div
+    class="max-w-[1200px] mx-auto px-4"
+  >
+    <div
+      class="mb-8"
+    >
+      <svg
+        aria-hidden="true"
+        class="w-full h-8"
+        preserveAspectRatio="none"
+        style="opacity: 0.5;"
+        viewBox="0 0 200 32"
+      >
+        <path
+          d="M 0 16 Q 50 8 100 16 T 200 16"
+          fill="none"
+          stroke="#607030"
+          stroke-width="2"
+        />
+        <circle
+          cx="30"
+          cy="16"
+          fill="#607030"
+          r="3"
+        />
+        <circle
+          cx="170"
+          cy="16"
+          fill="#607030"
+          r="3"
+        />
+      </svg>
+    </div>
+    <div
+      class="flex flex-col tablet:flex-row justify-between gap-6"
+    >
+      <div>
+        <p
+          class="font-bold text-lg"
+        >
+          Vegan Fantasy Fair
+        </p>
+        <p
+          class="text-sm text-gray-300 mt-1"
+        >
+          Next Heroes Events GbR
+        </p>
+      </div>
+      <div
+        class="flex gap-6 text-sm"
+      >
+        <a
+          class="hover:text-accent transition-colors"
+          href="/impressum"
+        >
+          Impressum
+        </a>
+        <a
+          class="hover:text-accent transition-colors"
+          href="/datenschutz"
+        >
+          Datenschutz
+        </a>
+      </div>
+      <div
+        class="flex gap-4 text-sm"
+      >
+        <a
+          class="hover:text-accent transition-colors"
+          href="https://www.instagram.com/veganfantasyfair/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Instagram
+        </a>
+        <a
+          class="hover:text-accent transition-colors"
+          href="https://www.facebook.com/veganfantasyfair/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Facebook
+        </a>
+      </div>
+    </div>
+    <p
+      class="text-xs text-gray-400 mt-6"
+    >
+      © 
+      2026
+       
+      Next Heroes Events GbR
+    </p>
+  </div>
+</footer>
+`;
