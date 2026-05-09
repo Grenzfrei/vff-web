@@ -12,8 +12,15 @@ export default function HomePage() {
           <h1 className="text-4xl desktop:text-6xl font-bold text-primary mb-4">
             Vegan Fantasy Fair 2026
           </h1>
-          <p className="text-xl text-text-muted mb-8">
+          <p className="text-xl text-text-muted mb-2">
             4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
+          </p>
+          <p className="text-text-muted mb-4">
+            Samstag 12&ndash;22 Uhr &middot; Sonntag 12&ndash;20 Uhr
+          </p>
+          <p className="text-text-muted mb-8 max-w-2xl mx-auto leading-relaxed">
+            Das vegane Fantasy-Festival kehrt zurück — zum dritten Mal im
+            Schlosspark Geislautern.
           </p>
           <div className="flex flex-col tablet:flex-row justify-center gap-4">
             <Link
@@ -94,7 +101,8 @@ export default function HomePage() {
             Wo vegane Küche auf Fantasy trifft
           </h2>
           <p className="text-text-muted text-center max-w-2xl mx-auto mb-8 leading-relaxed">
-            Die Vegan Fantasy Fair ist das einzigartige vegane Festival im Saarland. An
+            Die Vegan Fantasy Fair ist das vegane Festival im Saarland, das
+            Fantasy-Flair und Community vereint. An
             zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller
             veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer
             Begegnungen.
@@ -114,6 +122,24 @@ export default function HomePage() {
       </section>
 
       <section className="py-section-mobile desktop:py-section-desktop">
+        <div className="max-w-[1200px] mx-auto px-4 text-center">
+          <h2 className="text-2xl desktop:text-3xl font-bold text-primary mb-4">
+            Bereits zum dritten Mal
+          </h2>
+          <p className="text-text-muted mb-6 max-w-2xl mx-auto leading-relaxed">
+            Nach zwei erfolgreichen Auflagen im Schlosspark Geislautern kehrt die
+            Vegan Fantasy Fair 2026 zurück — größer und vielfältiger.
+          </p>
+          <Link
+            href="/rueckblick"
+            className="inline-block px-6 py-3 border-2 border-primary text-primary rounded font-semibold hover:bg-primary hover:text-white transition-colors"
+          >
+            Rückblick ansehen
+          </Link>
+        </div>
+      </section>
+
+      <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
           <h2 className="text-2xl desktop:text-3xl font-bold text-primary mb-4">
             Schlosspark Geislautern, Völklingen
