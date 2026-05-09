@@ -45,7 +45,7 @@ Das vegane Fantasy-Festival kehrt zurück — zum dritten Mal im Schlosspark Gei
 Wo vegane Küche auf Fantasy trifft.
 
 ### Text
-Die **Vegan Fantasy Fair** ist das einzigartige vegane Festival im Saarland: [PH: Kurzbeschreibung was die VFF besonders macht]. An zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
+Die **Vegan Fantasy Fair** ist das vegane Festival im Saarland, das Fantasy-Flair und Community vereint. An zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
 
 10.000 qm. Fünf Areas. Zwei Tage. Eine Community.
 
