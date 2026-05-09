@@ -177,7 +177,7 @@ Once approved for production:
 
 ## References
 
-- **Vault:** `vault/tech/deploy-static-cloudflare-pages.md`
+- **Vault:** `vault/3-resources/tech/deploy-static-cloudflare-pages.md`
 - **GitHub:** https://github.com/Grenzfrei/vff-web
 - **Google Sheets:** [VFF Content Spreadsheet](https://docs.google.com/spreadsheets/d/1OE9YkKrvOapJCvaHfdzBHw2twbi8L2Mi8Z2cTPcVEJo)
 - **Design Spec:** `docs/DESIGN-SPEC.md`

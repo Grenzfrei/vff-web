@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Anfahrt",
+  description:
+    "So kommst du zur Vegan Fantasy Fair: Schlosspark Geislautern, Ludweilerstraße 218, 66333 Völklingen. Anfahrt mit Auto, Bus & Bahn, Fahrrad — inkl. Parkinfo.",
+};
+
 export default function AnfahrtPage() {
   return (
     <>
@@ -21,9 +29,13 @@ export default function AnfahrtPage() {
               </h2>
               <div className="bg-surface p-6 rounded-lg">
                 <p className="font-semibold text-lg">Schlosspark Geislautern</p>
-                <p className="text-text-muted">66333 Völklingen</p>
+                <p className="text-text-muted">Ludweilerstraße 218</p>
+                <p className="text-text-muted">66333 Völklingen-Geislautern</p>
                 <p className="text-text-muted">Saarland, Deutschland</p>
               </div>
+              <p className="text-text-muted text-sm mt-2">
+                Der Einlass befindet sich zwischen Ludweilerstraße 218 und 218A.
+              </p>
 
               <h2 className="text-2xl font-bold text-primary mb-4 mt-8">
                 Mit dem Auto
@@ -31,7 +43,8 @@ export default function AnfahrtPage() {
               <ul className="space-y-3 text-text-muted">
                 <li>
                   <strong className="text-text">Navigation:</strong> &bdquo;Schlosspark
-                  Geislautern, Völklingen&ldquo;
+                  Geislautern, Völklingen&ldquo; oder &bdquo;Ludweilerstraße 218,
+                  66333 Völklingen&ldquo;
                 </li>
                 <li>
                   <strong className="text-text">Aus Richtung Saarbrücken:</strong>{" "}
@@ -42,8 +55,12 @@ export default function AnfahrtPage() {
                   über die A620, Abfahrt Völklingen
                 </li>
                 <li>
-                  <strong className="text-text">Parken:</strong> Kostenlose Parkplätze am
-                  Gelände (Details folgen)
+                  <strong className="text-text">Parken:</strong> Es gibt leider keine
+                  Parkplätze, die dem Gelände zugeteilt sind, und keine öffentlichen
+                  Parkplätze in der Nähe. Bitte achtet darauf, nicht im Parkverbot oder
+                  vor Garagen und Geschäften zu parken. Die Parkplätze direkt vor dem
+                  Gelände sind für Menschen mit Behinderung freizuhalten und können zum
+                  kurzen Halten genutzt werden, um Personen aussteigen zu lassen.
                 </li>
               </ul>
 
@@ -56,8 +73,11 @@ export default function AnfahrtPage() {
                   Regionalzüge und S-Bahn aus Saarbrücken, Saarlouis, Trier
                 </li>
                 <li>
-                  <strong className="text-text">Bus:</strong>{" "}
-                  Verbindung vom Bahnhof Völklingen zum Schlosspark
+                  <strong className="text-text">Bus:</strong> Vom Bahnhof Völklingen
+                  einfach den Bus <strong>Linie 184</strong> nehmen — in 6 Minuten seid
+                  ihr am Schlosspark. Die beste Haltestelle ist{" "}
+                  <strong>&bdquo;Hammergraben&ldquo;</strong>, sie kommt direkt nach der
+                  Haltestelle &bdquo;Masselgarten&ldquo;.
                 </li>
                 <li>
                   Fahrplanauskunft:{" "}
