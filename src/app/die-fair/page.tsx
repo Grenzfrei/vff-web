@@ -15,7 +15,7 @@ export default function DieFairPage() {
             Wo vegane Kultur auf Fantasy-Welten trifft
           </p>
           <p className="text-lg font-medium text-primary">
-            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Voelklingen
+            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
           </p>
         </div>
       </section>
@@ -27,9 +27,9 @@ export default function DieFairPage() {
           </h2>
           <p className="text-text-muted leading-relaxed text-lg mb-10 max-w-3xl">
             Im Schlosspark Geislauterns entsteht jedes Jahr im Juli auf 10.000 qm eine
-            eigene kleine Welt: Fuenf Areas voller Fantasy-Flair, Mittelaltermarkt-Stimmung,
+            eigene kleine Welt: Fünf Areas voller Fantasy-Flair, Mittelaltermarkt-Stimmung,
             Live-Musik, veganer Streetfood, Kunsthandwerk, LARP-Spielfelder und Artist Alley.
-            Zwischen Schlossmauern und alten Baeumen unter freiem Himmel. Fuer alle, die
+            Zwischen Schlossmauern und alten Bäumen unter freiem Himmel. Für alle, die
             Fantasy lieben und zeigen, dass &bdquo;vegan&ldquo; und &bdquo;Festival&ldquo;
             zusammen richtig gut funktionieren. Familienfreundlich, tierfreundlich, inklusiv.
           </p>
@@ -39,7 +39,7 @@ export default function DieFairPage() {
       <section className="pb-section-mobile desktop:pb-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4">
           <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-8">
-            Die fuenf Event-Areas
+            Die fünf Event-Areas
           </h2>
           <div className="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3">
             {EVENT_AREAS.map((area) => (
@@ -58,8 +58,8 @@ export default function DieFairPage() {
             {[
               { label: "Name", value: EVENT.name },
               { label: "Datum", value: "04. & 05. Juli 2026" },
-              { label: "Location", value: "Schlosspark Geislautern, Voelklingen" },
-              { label: "Flaeche", value: "10.000 qm" },
+              { label: "Location", value: "Schlosspark Geislautern, Völklingen" },
+              { label: "Fläche", value: "10.000 qm" },
               { label: "Auflage", value: "3." },
               { label: "Areas", value: "5 Themenbereiche" },
               { label: "Veranstalter", value: "Next Heroes Events" },
@@ -77,14 +77,14 @@ export default function DieFairPage() {
       <section className="py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4">
           <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-6">
-            Community & Atmosphaere
+            Community & Atmosphäre
           </h2>
           <div className="grid gap-4 tablet:grid-cols-2 max-w-2xl mx-auto">
             {[
-              "Fantasievoll, maerchenhaft, naturnah",
+              "Fantasievoll, märchenhaft, naturnah",
               "Bunt, einladend, Community-getrieben",
               "Familien & Kinder willkommen",
-              "Cosplay & Gewandung erwuenscht",
+              "Cosplay & Gewandung erwünscht",
               "Hunde erlaubt",
               "100% veganes Festival",
             ].map((item) => (
@@ -103,10 +103,10 @@ export default function DieFairPage() {
             3. Auflage 2026
           </h2>
           <p className="text-text-muted mb-6 max-w-2xl mx-auto leading-relaxed">
-            Die Vegan Fantasy Fair kehrt 2026 zum dritten Mal zurueck — groesser und
-            vielfaeltiger als je zuvor. Nach zwei erfolgreichen Auflagen im Schlosspark
+            Die Vegan Fantasy Fair kehrt 2026 zum dritten Mal zurück — größer und
+            vielfältiger als je zuvor. Nach zwei erfolgreichen Auflagen im Schlosspark
             Geislautern erwarten euch wieder zwei unvergessliche Tage voller veganer
-            Koestlichkeiten und Fantasy-Flair.
+            Köstlichkeiten und Fantasy-Flair.
           </p>
         </div>
       </section>

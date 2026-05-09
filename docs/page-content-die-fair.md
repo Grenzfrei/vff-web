@@ -103,8 +103,8 @@ Im Schlosspark Geislauterns entsteht jedes Jahr im Juli auf 10.000 qm eine eigen
 | Accent | Dancing Script oder Pacifico (Ersatz für peaches-and-cream) |
 
 ### Quellen
-- Brand Doc: `C:/Users/User/vault/brand/next-heroes/vff.md`
-- Design Doc: `C:/Users/User/vault/brand/next-heroes/design-doc-vff.md`
+- Brand Doc: `C:/Users/User/vault/2-areas/brand/next-heroes/vff.md`
+- Design Doc: `C:/Users/User/vault/2-areas/brand/next-heroes/design-doc-vff.md`
 - NAS: `N:\02-Ci\Veganfantasyfair\`
 - Google Drive: VFF 2026 Ordner
 - Veranstalter: Next Heroes Events

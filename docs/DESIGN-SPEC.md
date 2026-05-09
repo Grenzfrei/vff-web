@@ -191,7 +191,7 @@ Aktuell auf veganfantasyfair.de (Wix) verwendete Farben — Ausgangspunkt für W
 
 ## 9. Quellen
 
-- Vault: `C:/Users/User/vault/brand/next-heroes/vff.md`
+- Vault: `C:/Users/User/vault/2-areas/brand/next-heroes/vff.md`
 - NAS CI-Root: `N:\02-Ci\Veganfantasyfair\`
-- NAS Asset Registry: `C:/Users/User/vault/tech/nas-asset-registry.md`
+- NAS Asset Registry: `C:/Users/User/vault/3-resources/tech/nas-asset-registry.md`
 - Color Schema: `N:\02-Ci\Veganfantasyfair\Color schema VFF.png` (analysiert 2026-04-05)
