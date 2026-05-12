@@ -88,123 +88,7 @@ exports[`HomePage > matches snapshot 1`] = `
             class="mb-4 flex justify-center"
           >
             <img
-              alt="Mittelalter-Area"
-              class="w-12 h-12"
-              data-nimg="1"
-              decoding="async"
-              height="48"
-              loading="lazy"
-              src="/icons/game-icons/castle.svg"
-              style="color: transparent;"
-              width="48"
-            />
-          </div>
-          <h3
-            class="text-lg font-semibold text-primary mb-2"
-          >
-            Mittelalter-Area
-          </h3>
-          <p
-            class="text-text-muted"
-          >
-            Markt mit Handwerkern und Tavernen-Flair – Kostüme erwünscht.
-          </p>
-        </div>
-        <div
-          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
-        >
-          <div
-            class="mb-4 flex justify-center"
-          >
-            <img
-              alt="Live-Musik"
-              class="w-12 h-12"
-              data-nimg="1"
-              decoding="async"
-              height="48"
-              loading="lazy"
-              src="/icons/game-icons/lyre.svg"
-              style="color: transparent;"
-              width="48"
-            />
-          </div>
-          <h3
-            class="text-lg font-semibold text-primary mb-2"
-          >
-            Live-Musik
-          </h3>
-          <p
-            class="text-text-muted"
-          >
-            Bands und Solokünstler:innen auf der Festivalbühne.
-          </p>
-        </div>
-        <div
-          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
-        >
-          <div
-            class="mb-4 flex justify-center"
-          >
-            <img
-              alt="Artist Alley"
-              class="w-12 h-12"
-              data-nimg="1"
-              decoding="async"
-              height="48"
-              loading="lazy"
-              src="/icons/game-icons/scroll.svg"
-              style="color: transparent;"
-              width="48"
-            />
-          </div>
-          <h3
-            class="text-lg font-semibold text-primary mb-2"
-          >
-            Artist Alley
-          </h3>
-          <p
-            class="text-text-muted"
-          >
-            Kreative Stände mit Kunst, Illustrationen und Handwerk.
-          </p>
-        </div>
-        <div
-          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
-        >
-          <div
-            class="mb-4 flex justify-center"
-          >
-            <img
-              alt="LARP-Spielfelder"
-              class="w-12 h-12"
-              data-nimg="1"
-              decoding="async"
-              height="48"
-              loading="lazy"
-              src="/icons/game-icons/crossed-swords.svg"
-              style="color: transparent;"
-              width="48"
-            />
-          </div>
-          <h3
-            class="text-lg font-semibold text-primary mb-2"
-          >
-            LARP-Spielfelder
-          </h3>
-          <p
-            class="text-text-muted"
-          >
-            Fantasy-Rollenspiel zum Mitmachen für alle Altersgruppen.
-          </p>
-        </div>
-        <div
-          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
-        >
-          <div
-            class="mb-4 flex justify-center"
-          >
-            <img
-              alt="Veganer Streetfood"
+              alt="Marktplatz"
               class="w-12 h-12"
               data-nimg="1"
               decoding="async"
@@ -218,12 +102,128 @@ exports[`HomePage > matches snapshot 1`] = `
           <h3
             class="text-lg font-semibold text-primary mb-2"
           >
-            Veganer Streetfood
+            Marktplatz
           </h3>
           <p
             class="text-text-muted"
           >
-            Pflanzliche Küche von Foodtrucks und lokalen Anbietern.
+            Das lebhafte Zentrum der Fair — Marktstände, Streetfood, Taverne und Spiele.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Funkelgasse"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/scroll.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Funkelgasse
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Kunst & Kreatives, Lesepavillon und Community-Treff für Cosplay, LARP und mehr.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Burghof"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/castle.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Burghof
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Castle Stage mit Show- und Theatervorführungen, Spiele und Aktives Outdoor.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Gemeinschaftshaus"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/candle.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Gemeinschaftshaus
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Indoor Stage mit Vorträgen, Actual Plays und Workshops zum Mitmachen.
+          </p>
+        </div>
+        <div
+          class="bg-surface p-6 rounded-3xl shadow-card hover:shadow-card-hover transition-shadow text-center"
+        >
+          <div
+            class="mb-4 flex justify-center"
+          >
+            <img
+              alt="Zwergenwinkel"
+              class="w-12 h-12"
+              data-nimg="1"
+              decoding="async"
+              height="48"
+              loading="lazy"
+              src="/icons/game-icons/dragon.svg"
+              style="color: transparent;"
+              width="48"
+            />
+          </div>
+          <h3
+            class="text-lg font-semibold text-primary mb-2"
+          >
+            Zwergenwinkel
+          </h3>
+          <p
+            class="text-text-muted"
+          >
+            Spielplatz und Aktionen für Kinder.
           </p>
         </div>
       </div>
@@ -404,7 +404,7 @@ exports[`HomePage > matches snapshot 1`] = `
       <p
         class="text-text-muted text-center max-w-2xl mx-auto mb-8 leading-relaxed"
       >
-        Die Vegan Fantasy Fair ist das einzigartige vegane Festival im Saarland. An zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
+        Die Vegan Fantasy Fair ist das größte vegane Fantasy-Festival im Saarland. An zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
       </p>
       <p
         class="text-center text-lg font-medium text-primary mb-6"

@@ -1,6 +1,9 @@
-export const metadata = {
-  title: "Sammlung / Galerie — Vegan Fantasy Fair",
-  description: "Sammlung / Galerie der Vegan Fantasy Fair (Wix-Migration 2026-05-08).",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Programm-Sammlung — Vegan Fantasy Fair",
+  description:
+    "Programm-Übersicht der Vegan Fantasy Fair 2026: Shows, Spielrunden, Workshops, Lesungen und Musik.",
 };
 
 export default function SammlungPage() {
@@ -8,41 +11,69 @@ export default function SammlungPage() {
     <>
       <section className="bg-surface py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">Sammlung / Galerie</h1>
-          <p className="text-sm text-text-muted">
-            Inhalt migriert von{" "}
-            <a href="https://www.veganfantasyfair.de/sammlung" className="underline" target="_blank" rel="noopener noreferrer">
-              www.veganfantasyfair.de/sammlung
-            </a>
-          </p>
+          <h1 className="text-3xl desktop:text-5xl font-bold text-primary mb-4">
+            Programm-Sammlung
+          </h1>
+          <p className="text-lg text-text-muted">dieses Mal mit dabei</p>
         </div>
       </section>
 
       <section className="py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[800px] mx-auto px-4">
-          <p className="text-text-muted mb-4 leading-relaxed">{`dieses Mal mit dabei`}</p>
-          <p className="text-text-muted mb-4 leading-relaxed">{`Sören Vogelsang`}</p>
-          <p className="text-text-muted mb-4 leading-relaxed">{`Freiheit, Abenteuer oder Sozialkritik? Seine Lieder sind mal witzig, mal gehen sie an Herz, aber vor allem bewegen sie uns - über 4 Millionen Videoaufrufe auf YouTube und über 12000 monatliche Hörer:innen auf Spotify`}</p>
-          <p className="text-text-muted mb-4 leading-relaxed">{`sprechen da wohl für sich!`}</p>
-          <p className="text-text-muted mb-4 leading-relaxed">{`Erlebt Sören Vogelsang mit Band auf der Abenteuerbühne`}</p>
-          <h3 className="text-xl font-semibold text-text mt-6 mb-3">{`wird bald angekündigt`}</h3>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`weitere t.b.a.`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Fantasy Fotoshooting`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Kindertanzen`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Schatztruhen Gewinnspiel`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Lieven L. Litaer - Der Klingonischlehrer`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Alexandra van Gestel-Koopmans`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Lyakon`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Noel d´Oc`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Tanja Karmann`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Vegan Holistic Health`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Zeiten werden bald bekannt gegeben`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Anmeldeformulare für Ausstellende`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Datenschutz`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Anmeldeformular Team`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Cosplay- und Waffenregeln`}</h2>
-          <h2 className="text-2xl font-bold text-primary mt-8 mb-4">{`Anmeldeformular für Mitwirkende`}</h2>
-          <p className="text-text-muted mb-4 leading-relaxed">{`©2026 Vegan Fantasy Fair`}</p>
+          <div className="bg-surface p-6 rounded-lg mb-10">
+            <h2 className="text-2xl font-bold text-primary mb-2">
+              Sören Vogelsang
+            </h2>
+            <p className="text-text-muted leading-relaxed">
+              Freiheit, Abenteuer oder Sozialkritik? Seine Lieder sind mal
+              witzig, mal gehen sie an Herz, aber vor allem bewegen sie uns
+              &mdash; über 4 Millionen Videoaufrufe auf YouTube und über 12000
+              monatliche Hörer:innen auf Spotify sprechen da wohl für sich!
+            </p>
+            <p className="text-text-muted mt-2 leading-relaxed">
+              Erlebt Sören Vogelsang mit Band auf der Abenteuerbühne
+            </p>
+          </div>
+
+          <h2 className="text-2xl font-bold text-primary mt-10 mb-4">Show</h2>
+          <p className="text-text-muted mb-6">wird bald angekündigt</p>
+
+          <h2 className="text-2xl font-bold text-primary mt-10 mb-4">
+            Spielrunden
+          </h2>
+          <p className="text-text-muted mb-6">weitere t.b.a.</p>
+
+          <h2 className="text-2xl font-bold text-primary mt-10 mb-4">
+            Workshops / Mitmachaktionen
+          </h2>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-6">
+            <li>Fantasy Fotoshooting</li>
+            <li>Kindertanzen</li>
+            <li>Schatztruhen Gewinnspiel</li>
+            <li>weitere t.b.a.</li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-primary mt-10 mb-4">
+            Lesungen / Vorträge
+          </h2>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-6">
+            <li>Lieven L. Litaer &mdash; Der Klingonischlehrer</li>
+            <li>Alexandra van Gestel-Koopmans</li>
+            <li>Lyakon</li>
+            <li>Noel d&rsquo;Oc</li>
+            <li>Tanja Karmann</li>
+            <li>Vegan Holistic Health</li>
+            <li>weitere t.b.a.</li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-primary mt-10 mb-4">Musik</h2>
+          <p className="text-text-muted mb-6">weitere t.b.a.</p>
+
+          <div className="bg-surface p-5 rounded-lg mt-10">
+            <p className="text-text-muted text-sm">
+              Zeiten werden bald bekannt gegeben
+            </p>
+          </div>
         </div>
       </section>
     </>

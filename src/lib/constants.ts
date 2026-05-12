@@ -18,29 +18,33 @@ export const SOCIAL = {
 
 export const EVENT_AREAS = [
   {
-    name: "Mittelalter-Area",
-    description: "Markt mit Handwerkern und Tavernen-Flair – Kostüme erwünscht.",
-    icon: "castle",
+    name: "Marktplatz",
+    description:
+      "Das lebhafte Zentrum der Fair — Marktstände, Streetfood, Taverne und Spiele.",
+    icon: "cooking-pot",
   },
   {
-    name: "Live-Musik",
-    description: "Bands und Solokünstler:innen auf der Festivalbühne.",
-    icon: "lyre",
-  },
-  {
-    name: "Artist Alley",
-    description: "Kreative Stände mit Kunst, Illustrationen und Handwerk.",
+    name: "Funkelgasse",
+    description:
+      "Kunst & Kreatives, Lesepavillon und Community-Treff für Cosplay, LARP und mehr.",
     icon: "scroll",
   },
   {
-    name: "LARP-Spielfelder",
-    description: "Fantasy-Rollenspiel zum Mitmachen für alle Altersgruppen.",
-    icon: "crossed-swords",
+    name: "Burghof",
+    description:
+      "Castle Stage mit Show- und Theatervorführungen, Spiele und Aktives Outdoor.",
+    icon: "castle",
   },
   {
-    name: "Veganer Streetfood",
-    description: "Pflanzliche Küche von Foodtrucks und lokalen Anbietern.",
-    icon: "cooking-pot",
+    name: "Gemeinschaftshaus",
+    description:
+      "Indoor Stage mit Vorträgen, Actual Plays und Workshops zum Mitmachen.",
+    icon: "candle",
+  },
+  {
+    name: "Zwergenwinkel",
+    description: "Spielplatz und Aktionen für Kinder.",
+    icon: "dragon",
   },
 ] as const;
 

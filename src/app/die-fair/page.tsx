@@ -6,7 +6,7 @@ import { EventStructuredData } from "@/lib/structured-data";
 export const metadata: Metadata = {
   title: "Die Fair",
   description:
-    "Erfahre alles \u00FCber die Vegan Fantasy Fair am 4. & 5. Juli 2026 im Schlosspark Geislautern. F\u00FCnf Areas, 10.000 qm, veganes Festival mit Fantasy-Flair.",
+    "Die Vegan Fantasy Fair ist ein veganes Festival mit Messe-/Convention-Charakter. 5 Areas / 10000 qm.",
 };
 
 export default function DieFairPage() {
@@ -18,28 +18,35 @@ export default function DieFairPage() {
           <h1 className="text-4xl desktop:text-6xl font-bold text-primary mb-4">
             {EVENT.name}
           </h1>
-          <p className="text-xl text-text-muted mb-4">
-            Wo vegane Kultur auf Fantasy-Welten trifft
-          </p>
           <p className="text-lg font-medium text-primary">
-            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
+            4. &amp; 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
           </p>
         </div>
       </section>
 
       <section className="py-section-mobile desktop:py-section-desktop">
-        <div className="max-w-[1200px] mx-auto px-4 prose max-w-none">
+        <div className="max-w-[800px] mx-auto px-4">
           <h2 className="text-2xl desktop:text-3xl font-bold text-primary mb-6">
             Die Vegan Fantasy Fair
           </h2>
-          <p className="text-text-muted leading-relaxed text-lg mb-10 max-w-3xl">
-            Im Schlosspark Geislauterns entsteht jedes Jahr im Juli auf 10.000 qm eine
-            eigene kleine Welt: Fünf Areas voller Fantasy-Flair, Mittelaltermarkt-Stimmung,
-            Live-Musik, veganer Streetfood, Kunsthandwerk, LARP-Spielfelder und Artist Alley.
-            Zwischen Schlossmauern und alten Bäumen unter freiem Himmel. Für alle, die
-            Fantasy lieben und zeigen, dass &bdquo;vegan&ldquo; und &bdquo;Festival&ldquo;
-            zusammen richtig gut funktionieren. Familienfreundlich, tierfreundlich, inklusiv.
+          <p className="text-text-muted leading-relaxed text-lg mb-6">
+            Die Vegan Fantasy Fair ist ein veganes Festival mit
+            Messe-/Convention-Charakter. Die Veranstaltung findet auf 5 Areas
+            mit insgesamt 10000 qm statt, mit einem Waren- und Programmangebot
+            zu den Themen:
           </p>
+          <ol className="list-decimal list-inside space-y-3 text-text-muted mb-10 text-lg">
+            <li>
+              <strong className="text-text">
+                Ökologische und soziale Gerechtigkeit
+              </strong>{" "}
+              (Veganismus, Nachhaltigkeit, Umweltschutz, Gleichheit und mehr)
+            </li>
+            <li>
+              <strong className="text-text">Fantasy und Spiele</strong> (Spiele,
+              Rollenspiel, Literatur, Kunst, Musik und mehr)
+            </li>
+          </ol>
         </div>
       </section>
 
@@ -56,65 +63,93 @@ export default function DieFairPage() {
         </div>
       </section>
 
-      <section className="bg-surface py-section-mobile desktop:py-section-desktop">
-        <div className="max-w-[1200px] mx-auto px-4">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-8">
-            Key Facts
-          </h2>
-          <div className="grid gap-4 tablet:grid-cols-2 max-w-2xl mx-auto">
-            {[
-              { label: "Name", value: EVENT.name },
-              { label: "Datum", value: "04. & 05. Juli 2026" },
-              { label: "Location", value: "Schlosspark Geislautern, Völklingen" },
-              { label: "Fläche", value: "10.000 qm" },
-              { label: "Auflage", value: "3." },
-              { label: "Areas", value: "5 Themenbereiche" },
-              { label: "Veranstalter", value: "Next Heroes Events" },
-              { label: "Typ", value: "Veganes Festival mit Fantasy-Flair" },
-            ].map((fact) => (
-              <div key={fact.label} className="flex justify-between gap-4 p-3 border-b border-primary/10">
-                <span className="font-semibold text-primary">{fact.label}</span>
-                <span className="text-text text-right">{fact.value}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="py-section-mobile desktop:py-section-desktop">
-        <div className="max-w-[1200px] mx-auto px-4">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary text-center mb-6">
-            Community & Atmosphäre
-          </h2>
-          <div className="grid gap-4 tablet:grid-cols-2 max-w-2xl mx-auto">
-            {[
-              "Fantasievoll, märchenhaft, naturnah",
-              "Bunt, einladend, Community-getrieben",
-              "Familien & Kinder willkommen",
-              "Cosplay & Gewandung erwünscht",
-              "Hunde erlaubt",
-              "100% veganes Festival",
-            ].map((item) => (
-              <div key={item} className="flex items-center gap-3 p-3 bg-surface rounded-lg">
-                <span className="text-secondary text-lg" aria-hidden="true">&#10003;</span>
-                <span className="text-text">{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-surface py-section-mobile desktop:py-section-desktop">
-        <div className="max-w-[1200px] mx-auto px-4 text-center">
-          <h2 className="text-2xl desktop:text-3xl font-bold text-primary mb-4">
-            3. Auflage 2026
-          </h2>
-          <p className="text-text-muted mb-6 max-w-2xl mx-auto leading-relaxed">
-            Die Vegan Fantasy Fair kehrt 2026 zum dritten Mal zurück — größer und
-            vielfältiger als je zuvor. Nach zwei erfolgreichen Auflagen im Schlosspark
-            Geislautern erwarten euch wieder zwei unvergessliche Tage voller veganer
-            Köstlichkeiten und Fantasy-Flair.
+        <div className="max-w-[800px] mx-auto px-4">
+          <h2 className="text-2xl font-bold text-primary mb-4">Marktplatz</h2>
+          <p className="text-text-muted mb-3 leading-relaxed">
+            Das lebhafte Zentrum der Vegan Fantasy Fair &mdash; hier findest du
+            alles was Herz und Magen erfreut!
           </p>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-8">
+            <li>
+              <strong className="text-text">Marktstände</strong> &mdash; vegane
+              Food/Non-Food Produkte, nachhaltige, regionale, faire Produkte,
+              Kleidung, Kosmetik, Accessoires, Spiele, Literatur, Musik u.v.m.
+            </li>
+            <li>
+              <strong className="text-text">Streetfood</strong> &mdash;
+              Abwechslungsreiches Angebot an veganem Streetfood
+            </li>
+            <li>
+              <strong className="text-text">Taverne</strong> &mdash;
+              Freiluft-Taverne &ldquo;The Flickering Fairy&rdquo;
+            </li>
+            <li>
+              <strong className="text-text">Tavern Stage</strong> &mdash;
+              Fantastische Musik und viel Platz zum Tanzen
+            </li>
+            <li>
+              <strong className="text-text">Spiele</strong> &mdash; Tische für
+              freies Spielen und Austesten von Brett-, Karten-, und
+              Rollenspielen, geplante Spielrunden und Aktionen
+            </li>
+            <li>
+              <strong className="text-text">Schatztruhen</strong> &mdash; werden
+              während der Fair mit Waren der Ausstellenden und Sponsor:innen
+              gefüllt und abends verlost
+            </li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-primary mb-4">Funkelgasse</h2>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-8">
+            <li>
+              <strong className="text-text">Kunst &amp; Kreatives</strong>{" "}
+              &mdash; Stände von Künstler:innen, Autor*innen, kreative Arbeiten
+              und Handgefertigtes
+            </li>
+            <li>
+              <strong className="text-text">Lesepavillon</strong> &mdash;
+              Lesungen von anwesenden Autor*innen
+            </li>
+            <li>
+              <strong className="text-text">Community-Treff</strong> &mdash; Der
+              Treffpunkt für Cosplay, LARP, Roleplay, Fantasyfotografie und
+              mehr!
+            </li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-primary mb-4">Burghof</h2>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-8">
+            <li>
+              <strong className="text-text">Castle Stage</strong> &mdash; Show-
+              und Theatervorführungen
+            </li>
+            <li>
+              <strong className="text-text">Aktives Outdoor</strong> &mdash;
+              Spiele, kreative Bewegung und Aktivitäten
+            </li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-primary mb-4">
+            Gemeinschaftshaus
+          </h2>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-8">
+            <li>
+              <strong className="text-text">Indoor Stage</strong> &mdash;
+              Vorträge, Actual Plays / Live-Spielrunden und mehr
+            </li>
+            <li>
+              <strong className="text-text">Workshops</strong> &mdash; Spannende
+              Workshops zum Mitmachen
+            </li>
+          </ul>
+
+          <h2 className="text-2xl font-bold text-primary mb-4">
+            Zwergenwinkel
+          </h2>
+          <ul className="list-disc list-inside space-y-2 text-text-muted mb-8">
+            <li>Spielplatz und Aktionen für Kinder</li>
+          </ul>
         </div>
       </section>
     </>

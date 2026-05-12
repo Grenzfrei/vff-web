@@ -4,26 +4,26 @@ import EventAreaCard from "@/components/EventAreaCard";
 
 describe("EventAreaCard", () => {
   const area = {
-    name: "Mittelalter-Area",
-    description: "Markt mit Handwerkern und Tavernen-Flair",
+    name: "Burghof",
+    description: "Castle Stage mit Show- und Theatervorführungen, Spiele und Aktives Outdoor.",
     icon: "castle",
   };
 
   it("renders area name", () => {
     render(<EventAreaCard area={area} />);
-    expect(screen.getByText("Mittelalter-Area")).toBeDefined();
+    expect(screen.getByText("Burghof")).toBeDefined();
   });
 
   it("renders area description", () => {
     render(<EventAreaCard area={area} />);
-    expect(screen.getByText("Markt mit Handwerkern und Tavernen-Flair")).toBeDefined();
+    expect(screen.getByText("Castle Stage mit Show- und Theatervorführungen, Spiele und Aktives Outdoor.")).toBeDefined();
   });
 
   it("renders Game Icon when provided", () => {
     const { container } = render(<EventAreaCard area={area} />);
     const img = container.querySelector('img[src*="castle"]');
     expect(img).toBeDefined();
-    expect(img?.getAttribute("alt")).toBe("Mittelalter-Area");
+    expect(img?.getAttribute("alt")).toBe("Burghof");
   });
 
   it("renders without icon when not provided", () => {

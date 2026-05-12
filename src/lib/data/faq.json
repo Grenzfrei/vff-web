@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "question": "Wie sind die Öffnungszeiten?",
+    "answer": "Samstag 12-22 Uhr, Sonntag 12-20 Uhr",
+    "category": "Allgemein",
+    "order": 1
+  },
+  {
+    "question": "Wird es eine Tageskasse geben?",
+    "answer": "Ja, es wird eine Tageskasse vor Ort geben an der ihr Tickets kaufen könnt.",
+    "category": "Tickets",
+    "order": 2
+  },
+  {
+    "question": "Darf ich meinen Hund mitnehmen?",
+    "answer": "Hunde sind willkommen, müssen jedoch an der Leine geführt werden. An der Taverne findet ihr zudem eine kleine Hunde-Taverne.",
+    "category": "Allgemein",
+    "order": 3
+  },
+  {
+    "question": "Wie ist der Einlass für Kinder und Jugendliche geregelt?",
+    "answer": "Kinder bis einschl. 12 Jahre erhalten freien Eintritt zum Festival und sind von einer erwachsenen Person zu begleiten. Für Kinder und Jugendliche zwischen 13 und einschl. 17 Jahre gilt der ermäßigte Ticketpreis, sowie für Schüler*innen und Student*innen ab 18 Jahren.",
+    "category": "Tickets",
+    "order": 4
+  },
+  {
+    "question": "Wie ist der Einlass für Personen mit Schwerbehinderung geregelt?",
+    "answer": "Personen mit Schwerbehindertenausweis, sowie eine Begleitperson erhalten freien Eintritt zur Veranstaltung.",
+    "category": "Tickets",
+    "order": 5
+  },
+  {
+    "question": "Ich würde die Veranstaltung gerne besuchen, kann mir aber gerade kein Ticket leisten. Gibt es eine Möglichkeit?",
+    "answer": "Wenn du dir gerade kein Ticket leisten kannst, schreibe eine Mail an crowd@veganfantasyfair.de um ein Ticket aus dem Soli Topf zu erhalten. Weitere Informationen zum Soli Ticket findest du unter \"Das Konzept\".",
+    "category": "Tickets",
+    "order": 6
+  },
+  {
+    "question": "Wo kann ich parken?",
+    "answer": "Es gibt leider keine Parkplätze für Besuchende, die dem Gelände zugeteilt sind und keine öffentlichen Parkplätze in der Nähe. Solltest du mit dem Auto anreisen achte darauf nicht im Parkverbot oder vor Garagen und Geschäften zu parken.",
+    "category": "Anfahrt",
+    "order": 7
+  }
+]
