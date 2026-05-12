@@ -37,7 +37,7 @@ export default function DatenschutzPage() {
         <p>
           Die Datenverarbeitung auf dieser Website erfolgt durch den
           Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt
-          „Hinweis zur Verantwortlichen Stelle" in dieser Datenschutzerklärung
+          &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser Datenschutzerklärung
           entnehmen.
         </p>
         <p className="font-semibold mt-4 mb-1">
