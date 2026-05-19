@@ -35,6 +35,20 @@ export const metadata: Metadata = {
     siteName: "Vegan Fantasy Fair",
     title: "Vegan Fantasy Fair | Veganes Festival mit Fantasy-Flair",
     description: `Vegan Fantasy Fair am ${EVENT.dateDisplay} im ${VENUE.name}, ${VENUE.city}.`,
+    images: [
+      {
+        url: "/images/vff-logo-header.png",
+        width: 329,
+        height: 200,
+        alt: "Vegan Fantasy Fair Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Vegan Fantasy Fair | Veganes Festival mit Fantasy-Flair",
+    description: `Vegan Fantasy Fair am ${EVENT.dateDisplay} im ${VENUE.name}, ${VENUE.city}.`,
+    images: ["/images/vff-logo-header.png"],
   },
   icons: {
     icon: "/images/favicon-32x32.png",
