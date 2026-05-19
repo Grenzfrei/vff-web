@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Das Konzept — Vegan Fantasy Fair",
@@ -145,10 +146,10 @@ export default function DasKonzeptPage() {
           <p className="text-text-muted mb-6 leading-relaxed">
             Du hast Vorschläge? Schreibe gerne eine E-Mail an{" "}
             <a
-              href="mailto:hallo@veganfantasyfair.de"
+              href={`mailto:${COMPANY.email}`}
               className="text-primary underline"
             >
-              hallo@veganfantasyfair.de
+              {COMPANY.email}
             </a>
           </p>
 

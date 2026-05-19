@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Mitwirken — Vegan Fantasy Fair",
@@ -82,7 +83,7 @@ export default function MitmachenPage() {
             unterstützen? Wir freuen uns sehr über ein Produktsponsoring für
             unsere Schatztruhen-Verlosung. Bei Interesse schreibe eine Mail an{" "}
             <a
-              href="mailto:hallo@veganfantasyfair.de"
+              href={`mailto:${COMPANY.email}`}
               className="text-primary underline"
             >
               hallo@veganfantasyfair.de
@@ -110,10 +111,10 @@ export default function MitmachenPage() {
             <p className="text-text-muted">
               Bei Fragen oder Ideen schreibe gerne eine Mail an{" "}
               <a
-                href="mailto:hallo@veganfantasyfair.de"
+                href={`mailto:${COMPANY.email}`}
                 className="text-primary underline"
               >
-                hallo@veganfantasyfair.de
+                {COMPANY.email}
               </a>
             </p>
           </div>

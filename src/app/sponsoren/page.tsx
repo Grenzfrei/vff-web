@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { COMPANY } from "@/lib/constants";
 import sponsorsData from "@/lib/data/sponsors.json";
 
 export const metadata: Metadata = {
@@ -50,8 +51,8 @@ export default function SponsorenPage() {
 
         <p className="text-center text-text-muted text-sm mt-10">
           Ihr m&ouml;chtet Sponsor oder Partner der Vegan Fantasy Fair werden?{" "}
-          <a href="mailto:hallo@veganfantasyfair.de" className="text-secondary underline">
-            hallo@veganfantasyfair.de
+          <a href={`mailto:${COMPANY.email}`} className="text-secondary underline">
+            {COMPANY.email}
           </a>
         </p>
       </div>

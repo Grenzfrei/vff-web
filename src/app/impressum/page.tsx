@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Impressum",
@@ -22,10 +23,10 @@ export default function ImpressumPage() {
         <p>
           Kontakt:{" "}
           <a
-            href="mailto:hallo@veganfantasyfair.de"
+            href={`mailto:${COMPANY.email}`}
             className="text-primary underline"
           >
-            hallo@veganfantasyfair.de
+            {COMPANY.email}
           </a>
         </p>
 

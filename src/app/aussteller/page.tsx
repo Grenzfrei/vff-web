@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { EVENT, VENUE } from "@/lib/constants";
+import { EVENT, VENUE, COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Aussteller — Vegan Fantasy Fair",
@@ -42,10 +42,10 @@ export default function AusstellerPage() {
             <p className="text-text-muted">
               Bei Fragen zur Anmeldung schreibe gerne eine Mail an{" "}
               <a
-                href="mailto:hallo@veganfantasyfair.de"
+                href={`mailto:${COMPANY.email}`}
                 className="text-primary underline"
               >
-                hallo@veganfantasyfair.de
+                {COMPANY.email}
               </a>
             </p>
           </div>

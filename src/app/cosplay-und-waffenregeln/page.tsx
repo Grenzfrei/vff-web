@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { VENUE } from "@/lib/constants";
+import { VENUE, COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Cosplay- und Waffenregeln — Vegan Fantasy Fair",
@@ -110,10 +110,10 @@ export default function CosplayUndWaffenregelnPage() {
             Solltet ihr euch nicht sicher sein, ob eure Waffe erlaubt ist,
             schreibt gerne eine Mail mit Bild an{" "}
             <a
-              href="mailto:hallo@veganfantasyfair.de"
+              href={`mailto:${COMPANY.email}`}
               className="text-primary underline"
             >
-              hallo@veganfantasyfair.de
+              {COMPANY.email}
             </a>
           </p>
         </div>
