@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { EVENT_AREAS, EVENT } from "@/lib/constants";
+import { EVENT_AREAS, EVENT, VENUE } from "@/lib/constants";
 import EventAreaCard from "@/components/EventAreaCard";
 import { EventStructuredData } from "@/lib/structured-data";
 
@@ -19,7 +19,7 @@ export default function DieFairPage() {
             {EVENT.name}
           </h1>
           <p className="text-lg font-medium text-primary">
-            4. &amp; 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
+            {EVENT.dateDisplay} &middot; {VENUE.name}, {VENUE.city}
           </p>
         </div>
       </section>

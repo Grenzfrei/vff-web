@@ -4,7 +4,7 @@ import sponsorsData from "@/lib/data/sponsors.json";
 export const metadata: Metadata = {
   title: "Sponsoren",
   description:
-    "Unsere Sponsoren und Partner der Vegan Fantasy Fair 2026 — von Verlagen u00FCber Spielehersteller bis zu lokalen Initiativen.",
+    "Unsere Sponsoren und Partner der Vegan Fantasy Fair 2026 — von Verlagen über Spielehersteller bis zu lokalen Initiativen.",
 };
 
 interface Sponsor {
@@ -49,8 +49,8 @@ export default function SponsorenPage() {
 
         <p className="text-center text-text-muted text-sm mt-10">
           Ihr m&ouml;chtet Sponsor oder Partner der Vegan Fantasy Fair werden?{" "}
-          <a href="mailto:info@veganfantasyfair.de" className="text-secondary underline">
-            info@veganfantasyfair.de
+          <a href="mailto:hallo@veganfantasyfair.de" className="text-secondary underline">
+            hallo@veganfantasyfair.de
           </a>
         </p>
       </div>

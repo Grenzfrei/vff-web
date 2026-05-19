@@ -24,6 +24,7 @@ export default function Header() {
           className="desktop:hidden p-2"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Menü"
+          aria-expanded={menuOpen}
         >
           <span className="block w-6 h-0.5 bg-text mb-1.5" />
           <span className="block w-6 h-0.5 bg-text mb-1.5" />

@@ -20,6 +20,7 @@ exports[`Header > matches snapshot 1`] = `
       />
     </a>
     <button
+      aria-expanded="false"
       aria-label="Menü"
       class="desktop:hidden p-2"
     >

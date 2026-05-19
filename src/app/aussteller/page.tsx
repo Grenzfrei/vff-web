@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EVENT, VENUE } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Aussteller — Vegan Fantasy Fair",
   description:
-    "Werde Aussteller:in auf der Vegan Fantasy Fair 2026 im Schlosspark Geislautern.",
+    `Werde Aussteller:in auf der Vegan Fantasy Fair ${EVENT.year} im ${VENUE.name}.`,
 };
 
 export default function AusstellerPage() {
@@ -16,7 +17,7 @@ export default function AusstellerPage() {
             Aussteller:innen
           </h1>
           <p className="text-lg text-text-muted">
-            4. &amp; 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
+            {EVENT.dateDisplay} &middot; {VENUE.name}, {VENUE.city}
           </p>
         </div>
       </section>

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import { VENUE } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Cosplay- und Waffenregeln — Vegan Fantasy Fair",
-  description:
-    "Cosplay- und Waffenregeln der Vegan Fantasy Fair im Schlosspark Geislautern.",
+  description: `Cosplay- und Waffenregeln der Vegan Fantasy Fair im ${VENUE.name}.`,
 };
 
 export default function CosplayUndWaffenregelnPage() {

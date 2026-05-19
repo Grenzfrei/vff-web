@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { OrganizationStructuredData } from "@/lib/structured-data";
+import { EVENT, VENUE } from "@/lib/constants";
 
 const barlow = Barlow({
   subsets: ["latin"],
@@ -19,19 +20,21 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(EVENT.url),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Vegan Fantasy Fair | Veganes Festival mit Fantasy-Flair",
     template: "%s | Vegan Fantasy Fair",
   },
-  description:
-    "Vegan Fantasy Fair am 4. & 5. Juli 2026 im Schlosspark Geislautern, Völklingen. Vegane Messe mit Fantasy, Cosplay, Live-Musik, Streetfood und Kunsthandwerk.",
+  description: `Vegan Fantasy Fair am ${EVENT.dateDisplay} im ${VENUE.name}, ${VENUE.city}. Vegane Messe mit Fantasy, Cosplay, Live-Musik, Streetfood und Kunsthandwerk.`,
   openGraph: {
     type: "website",
     locale: "de_DE",
     siteName: "Vegan Fantasy Fair",
     title: "Vegan Fantasy Fair | Veganes Festival mit Fantasy-Flair",
-    description:
-      "Vegan Fantasy Fair am 4. & 5. Juli 2026 im Schlosspark Geislautern, Völklingen.",
+    description: `Vegan Fantasy Fair am ${EVENT.dateDisplay} im ${VENUE.name}, ${VENUE.city}.`,
   },
   icons: {
     icon: "/images/favicon-32x32.png",

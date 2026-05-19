@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { VENUE } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Anfahrt — Vegan Fantasy Fair",
   description:
-    "Anfahrt zur Vegan Fantasy Fair im Schlosspark Geislautern, 66333 Völklingen.",
+    `Anfahrt zur Vegan Fantasy Fair im ${VENUE.name}, ${VENUE.postalCode} ${VENUE.city}.`,
 };
 
 export default function AnfahrtPage() {
@@ -15,7 +16,7 @@ export default function AnfahrtPage() {
             Anfahrt
           </h1>
           <p className="text-lg text-text-muted">
-            Schlosspark Geislautern, 66333 Völklingen-Geislautern (Saarland)
+            {VENUE.addressLine}
           </p>
         </div>
       </section>

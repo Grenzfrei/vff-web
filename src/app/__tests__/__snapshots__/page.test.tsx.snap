@@ -5,7 +5,7 @@ exports[`HomePage > matches snapshot 1`] = `
   <script
     type="application/ld+json"
   >
-    {"@context":"https://schema.org","@type":"Event","name":"Vegan Fantasy Fair","description":"Die vegane Messe mit Fantasy-Flair","url":"https://veganfantasyfair.de","startDate":"2026-07-04T10:00:00+02:00","endDate":"2026-07-05T20:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Schlosspark Geislautern","address":{"@type":"PostalAddress","addressLocality":"Völklingen","addressRegion":"Saarland","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"Next Heroes Events GbR","url":"https://veganfantasyfair.de","email":"info@veganfantasyfair.de"}}
+    {"@context":"https://schema.org","@type":"Event","name":"Vegan Fantasy Fair","description":"Die vegane Messe mit Fantasy-Flair","url":"https://veganfantasyfair.de","startDate":"2026-07-04T10:00:00+02:00","endDate":"2026-07-05T20:00:00+02:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"Schlosspark Geislautern","address":{"@type":"PostalAddress","postalCode":"66333","addressLocality":"Völklingen","addressRegion":"Saarland","addressCountry":"DE"}},"organizer":{"@type":"Organization","name":"Next Heroes Events GbR","url":"https://veganfantasyfair.de","email":"hallo@veganfantasyfair.de"}}
   </script>
   <section
     class="bg-surface py-section-mobile desktop:py-section-desktop relative"
@@ -47,7 +47,11 @@ exports[`HomePage > matches snapshot 1`] = `
       <p
         class="text-xl text-text-muted mb-8"
       >
-        4. & 5. Juli 2026 · Schlosspark Geislautern, Völklingen
+        4. & 5. Juli 2026
+         · 
+        Schlosspark Geislautern
+        , 
+        Völklingen
       </p>
       <div
         class="flex flex-col tablet:flex-row justify-center gap-4"
@@ -404,7 +408,9 @@ exports[`HomePage > matches snapshot 1`] = `
       <p
         class="text-text-muted text-center max-w-2xl mx-auto mb-8 leading-relaxed"
       >
-        Die Vegan Fantasy Fair ist das größte vegane Fantasy-Festival im Saarland. An zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
+        Die Vegan Fantasy Fair ist das größte vegane Fantasy-Festival im Saarland. An zwei Tagen verwandelt sich der 
+        Schlosspark Geislautern
+         in eine Welt voller veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer Begegnungen.
       </p>
       <p
         class="text-center text-lg font-medium text-primary mb-6"
@@ -432,7 +438,9 @@ exports[`HomePage > matches snapshot 1`] = `
       <h2
         class="text-2xl desktop:text-3xl font-display font-bold text-primary mb-4"
       >
-        Schlosspark Geislautern, Völklingen
+        Schlosspark Geislautern
+        , 
+        Völklingen
       </h2>
       <p
         class="text-text-muted mb-6"

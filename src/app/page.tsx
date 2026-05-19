@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { EVENT, EVENT_AREAS } from "@/lib/constants";
+import { EVENT, EVENT_AREAS, VENUE } from "@/lib/constants";
 import EventAreaCard from "@/components/EventAreaCard";
 import { EventStructuredData } from "@/lib/structured-data";
 import StarOrnament from "@/components/prefabs/StarOrnament";
@@ -22,7 +22,7 @@ export default function HomePage() {
             Vegan Fantasy Fair 2026
           </h1>
           <p className="text-xl text-text-muted mb-8">
-            4. & 5. Juli 2026 &middot; Schlosspark Geislautern, Völklingen
+            {EVENT.dateDisplay} &middot; {VENUE.name}, {VENUE.city}
           </p>
           <div className="flex flex-col tablet:flex-row justify-center gap-4">
             <Link
@@ -61,8 +61,8 @@ export default function HomePage() {
           </h2>
           <div className="grid gap-6 tablet:grid-cols-2 desktop:grid-cols-3 max-w-3xl mx-auto">
             {[
-              { icon: "📅", label: "4. & 5. Juli 2026", desc: "Zwei volle Festival-Tage" },
-              { icon: "📍", label: "Schlosspark Geislautern", desc: "Völklingen, Saarland" },
+              { icon: "📅", label: EVENT.dateDisplay, desc: "Zwei volle Festival-Tage" },
+              { icon: "📍", label: VENUE.name, desc: `${VENUE.city}, ${VENUE.region}` },
               { icon: "🌱", label: "100% vegan", desc: "Essen, Mode, Kunst, Lifestyle" },
               { icon: "🧙", label: "Fantasy & Cosplay", desc: "Für alle, die mehr wollen als nur einen Markt" },
               { icon: "🎵", label: "Live-Musik", desc: "Bands und Solokünstler:innen" },
@@ -104,7 +104,7 @@ export default function HomePage() {
           </h2>
           <p className="text-text-muted text-center max-w-2xl mx-auto mb-8 leading-relaxed">
             Die Vegan Fantasy Fair ist das größte vegane Fantasy-Festival im Saarland. An
-            zwei Tagen verwandelt sich der Schlosspark Geislautern in eine Welt voller
+            zwei Tagen verwandelt sich der {VENUE.name} in eine Welt voller
             veganer Köstlichkeiten, Fantasy-Flair, Cosplay, Live-Musik und kreativer
             Begegnungen.
           </p>
@@ -125,7 +125,7 @@ export default function HomePage() {
       <section className="py-section-mobile desktop:py-section-desktop">
         <div className="max-w-[1200px] mx-auto px-4 text-center">
           <h2 className="text-2xl desktop:text-3xl font-display font-bold text-primary mb-4">
-            Schlosspark Geislautern, Völklingen
+            {VENUE.name}, {VENUE.city}
           </h2>
           <p className="text-text-muted mb-6">
             Gut erreichbar mit Auto und Bahn.

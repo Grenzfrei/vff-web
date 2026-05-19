@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { EVENT } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Programm — Vegan Fantasy Fair",
@@ -50,7 +51,7 @@ export default function ProgrammPage() {
 
           <p className="text-text-muted mb-6 leading-relaxed">
             Bis dahin: Merkt euch den{" "}
-            <strong className="text-text">4. &amp; 5. Juli 2026</strong> vor!
+            <strong className="text-text">{EVENT.dateDisplay}</strong> vor!
           </p>
 
           <Link

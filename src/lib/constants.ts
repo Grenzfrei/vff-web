@@ -3,12 +3,28 @@ export const EVENT = {
   tagline: "Die vegane Messe mit Fantasy-Flair",
   url: "https://veganfantasyfair.de",
   timezone: "Europe/Berlin",
+  year: 2026,
+  dateDisplay: "4. & 5. Juli 2026",
+  dateDisplayShort: "4./5. Juli 2026",
+  startDate: "2026-07-04T10:00:00+02:00",
+  endDate: "2026-07-05T20:00:00+02:00",
+} as const;
+
+export const VENUE = {
+  name: "Schlosspark Geislautern",
+  city: "Völklingen",
+  region: "Saarland",
+  postalCode: "66333",
+  district: "Geislautern",
+  country: "DE",
+  addressLine: "Schlosspark Geislautern, 66333 Völklingen-Geislautern (Saarland)",
+  mapsQuery: "Schlosspark+Geislautern,+66333+V%C3%B6lklingen",
 } as const;
 
 export const COMPANY = {
   name: "Next Heroes Events GbR",
   address: "Saarbrücken, Deutschland",
-  email: "info@veganfantasyfair.de",
+  email: "hallo@veganfantasyfair.de",
 } as const;
 
 export const SOCIAL = {
