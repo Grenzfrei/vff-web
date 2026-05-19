@@ -22,14 +22,14 @@ export default function CosplayUndWaffenregelnPage() {
         <div className="max-w-[800px] mx-auto px-4">
           <h2 className="text-2xl font-bold text-primary mb-6">Allgemein</h2>
           <p className="text-text-muted mb-4 leading-relaxed">
-            Der Schlosspark bietet eine natürliche Kulisse mit vielen
+            Der {VENUE.name} bietet eine natürliche Kulisse mit vielen
             Grünflächen, Bäumen und kleinen Spots, z.B Teil eines alten
             Grubenzugs oder eine große Spielburg. Sprecht also gerne unsere
             Cosplay- und Convention Fotograf*innen vor Ort an.
           </p>
           <p className="text-text-muted mb-4 leading-relaxed">
             Bei Größe und Form eures Kostüms sind keine Grenzen gesetzt, dafür
-            bietet der Schlosspark ausreichend Platz. Bedenkt dabei aber bitte,
+            bietet der {VENUE.name} ausreichend Platz. Bedenkt dabei aber bitte,
             dass sich die Toiletten in der Halle befinden, dorthin wird der
             Zugang mit einem großen Kostüm erschwert.
           </p>

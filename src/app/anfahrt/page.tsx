@@ -28,8 +28,8 @@ export default function AnfahrtPage() {
             Anfahrt mit dem Auto
           </h2>
           <p className="text-text-muted mb-4 leading-relaxed">
-            Die Vegan Fantasy Fair findet im Schlosspark Geislautern statt, in
-            66333 Völklingen-Geislautern (Saarland).
+            Die Vegan Fantasy Fair findet im {VENUE.name} statt, in{" "}
+            {VENUE.postalCode} {VENUE.city}-{VENUE.district} ({VENUE.region}).
           </p>
           <p className="text-text-muted mb-4 leading-relaxed">
             <strong className="text-text">Fürs Navi:</strong> Ludweilerstraße
@@ -55,9 +55,9 @@ export default function AnfahrtPage() {
             Anfahrt mit den Öffis
           </h2>
           <p className="text-text-muted mb-4 leading-relaxed">
-            Nehmt vom Bahnhof Völklingen einfach den Bus{" "}
+            Nehmt vom Bahnhof {VENUE.city} einfach den Bus{" "}
             <strong className="text-text">Linie 184</strong> und ihr seid in 6
-            Minuten am Schlosspark. Die beste Haltestelle ist{" "}
+            Minuten am {VENUE.name}. Die beste Haltestelle ist{" "}
             <strong className="text-text">
               &ldquo;Hammergraben&rdquo;
             </strong>
@@ -69,8 +69,8 @@ export default function AnfahrtPage() {
             <h2 className="text-2xl font-bold text-primary mb-4">Karte</h2>
             <div className="bg-surface rounded-lg overflow-hidden aspect-[4/3]">
               <iframe
-                title="Schlosspark Geislautern auf Google Maps"
-                src="https://www.google.com/maps?q=Schlosspark+Geislautern,+66333+V%C3%B6lklingen&output=embed"
+                title={`${VENUE.name} auf Google Maps`}
+                src={`https://www.google.com/maps?q=${VENUE.mapsQuery}&output=embed`}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
