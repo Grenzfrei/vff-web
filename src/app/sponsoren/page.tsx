@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Sponsoren",
   description:
     "Unsere Sponsoren und Partner der Vegan Fantasy Fair 2026 — von Verlagen über Spielehersteller bis zu lokalen Initiativen.",
+  alternates: { canonical: "/sponsoren" },
 };
 
 interface Sponsor {

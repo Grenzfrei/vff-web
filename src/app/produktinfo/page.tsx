@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Produktinfo — Vegan Fantasy Fair",
   description:
     "Hinweise zu Produkten und Drucksachen auf der Vegan Fantasy Fair.",
+  alternates: { canonical: "/produktinfo" },
 };
 
 export default function ProduktinfoPage() {

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Aussteller — Vegan Fantasy Fair",
   description:
     `Werde Aussteller:in auf der Vegan Fantasy Fair ${EVENT.year} im ${VENUE.name}.`,
+  alternates: { canonical: "/aussteller" },
 };
 
 export default function AusstellerPage() {

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Programm — Vegan Fantasy Fair",
   description:
     "Musik, Spielrunden, Vorträge, Show, Streetfood, Marktplatz, Abenteuer, Taverne, Rollenspiel, LARP, Cosplay, Lesungen und mehr.",
+  alternates: { canonical: "/programm" },
 };
 
 export default function ProgrammPage() {

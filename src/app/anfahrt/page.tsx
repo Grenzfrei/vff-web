@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Anfahrt — Vegan Fantasy Fair",
   description:
     `Anfahrt zur Vegan Fantasy Fair im ${VENUE.name}, ${VENUE.postalCode} ${VENUE.city}.`,
+  alternates: { canonical: "/anfahrt" },
 };
 
 export default function AnfahrtPage() {

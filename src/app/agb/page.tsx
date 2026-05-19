@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "FAQ — Vegan Fantasy Fair",
-  description: "Häufig gestellte Fragen zur Vegan Fantasy Fair.",
+  title: "AGB — Vegan Fantasy Fair",
+  description: "Diese Seite ist umgezogen. Weiter zu den FAQ.",
+  robots: { index: false, follow: true },
 };
 
 export default function AgbPage() {

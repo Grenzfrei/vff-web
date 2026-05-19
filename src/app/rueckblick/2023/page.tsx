@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Rückblick 2023 — Vegan Fantasy Fair",
   description: "Rückblick auf die 1. Auflage der Vegan Fantasy Fair 2023.",
+  alternates: { canonical: "/rueckblick/2023" },
 };
 
 export default function Rueckblick2023Page() {

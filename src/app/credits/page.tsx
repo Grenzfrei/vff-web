@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Credits",
+  alternates: { canonical: "/credits" },
+};
 
 export default function CreditsPage() {
   return (

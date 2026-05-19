@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Das Konzept — Vegan Fantasy Fair",
   description:
     "Die Vegan Fantasy Fair ist ein Festival mit Messe-/Convention-Charakter, das soziale und ökologische Themen mit Entertainment und Freizeitbeschäftigung aus dem Fantasy-Bereich verbindet.",
+  alternates: { canonical: "/das-konzept" },
 };
 
 export default function DasKonzeptPage() {

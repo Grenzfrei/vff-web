@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Rückblick — Vegan Fantasy Fair",
   description:
     "Rückblick auf die bisherigen Auflagen der Vegan Fantasy Fair.",
+  alternates: { canonical: "/rueckblick" },
 };
 
 export default function RueckblickPage() {

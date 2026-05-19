@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Standoptionen — Vegan Fantasy Fair",
   description:
     "Standoptionen und Preise für Ausstellende auf der Vegan Fantasy Fair: Freifläche, Zeltstand und Gastrostand.",
+  alternates: { canonical: "/standoptionen" },
 };
 
 export default function StandoptionenPage() {

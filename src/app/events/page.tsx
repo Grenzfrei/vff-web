@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import eventsData from "@/lib/data/events.json";
+
+export const metadata: Metadata = {
+  title: "Events",
+  description: "Alle Events der Vegan Fantasy Fair.",
+  alternates: { canonical: "/events" },
+};
 
 interface Event {
   slug: string;

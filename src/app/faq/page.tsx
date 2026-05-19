@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import faqData from "@/lib/data/faq.json";
 import Accordion from "@/components/Accordion";
 import { FaqStructuredData } from "@/lib/structured-data";
+
+export const metadata: Metadata = {
+  title: "FAQ",
+  description: "Häufig gestellte Fragen zur Vegan Fantasy Fair.",
+  alternates: { canonical: "/faq" },
+};
 
 interface FaqItem {
   question: string;

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Die Fair",
   description:
     "Die Vegan Fantasy Fair ist ein veganes Festival mit Messe-/Convention-Charakter. 5 Areas / 10000 qm.",
+  alternates: { canonical: "/die-fair" },
 };
 
 export default function DieFairPage() {

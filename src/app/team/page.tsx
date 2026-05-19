@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import teamData from "@/lib/data/team.json";
+
+export const metadata: Metadata = {
+  title: "Team",
+  description: "Das Team hinter der Vegan Fantasy Fair.",
+  alternates: { canonical: "/team" },
+};
 
 interface TeamMember {
   name: string;

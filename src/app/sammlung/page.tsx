@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: "Programm-Sammlung — Vegan Fantasy Fair",
   description:
     "Programm-Übersicht der Vegan Fantasy Fair 2026: Shows, Spielrunden, Workshops, Lesungen und Musik.",
+  alternates: { canonical: "/sammlung" },
 };
 
 export default function SammlungPage() {

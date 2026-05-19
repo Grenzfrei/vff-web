@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Mitwirken — Vegan Fantasy Fair",
   description:
     "Mitwirken oder Ausstellen mit einem Standplatz, im Programm oder im Team auf der Vegan Fantasy Fair.",
+  alternates: { canonical: "/mitmachen" },
 };
 
 export default function MitmachenPage() {
